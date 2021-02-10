@@ -1,0 +1,429 @@
+
+.resume15{   
+    margin: 20px auto;
+}
+
+
+.resume15 .main{
+    min-width: 1050px;
+    max-width: 1050px;
+    max-height: 1250px;
+    min-height: 1250px;
+    padding: 25px 25px;
+    background-color:#FFE0E9;
+
+}
+
+
+
+
+
+.resume15 .start{
+    
+    background-color:    rgb(250, 249, 249)  ;
+    padding: 10px;
+}
+
+.resume15 .main .start .container1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 25px;
+}
+.resume15 .main .start .container1 hr{
+  width: 20%;
+  color:#522E38;
+  height: 3px;
+  background-color:#522E38 ;
+  margin-top: 2px;
+
+}
+.resume15 .main .start .container2{
+    background-color: white;
+    padding: 15px;
+}
+.resume15 .main .start .container2 p{
+    font-size: 13px;
+    padding: 8px;
+    background-color: #522E38;
+    color: white;
+    width: 13%;
+    border-top-left-radius: 17px;
+    padding: 9px;
+}
+
+.resume15 .main .start .container1 .container11 h3{
+    color:#522E38;
+    font-weight: 900;
+    font-size: 22px;
+}
+.resume15 .main .start .container1 .container11 h4{
+    color: #FF9EBB;
+}
+
+.resume15 .main .start .container1 .container11{
+    width: 70%;
+}
+.resume15 .main .start .container1 .container22{
+    width: 30%;
+    color: #FF9EBB;
+    ;
+}
+.resume15 .main .start .container1 .container22 h5{
+    margin-top: -15px;
+    max-width: 240px;
+    overflow-wrap: break-word
+}
+.resume15 .main .start .container1 .container22 .email{
+
+display: flex;
+align-items: center;
+
+
+}
+.resume15 .main .start .container1 .container22 .email p
+{
+    color: #FFE0E9;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:#FFE0E9 ;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    
+    
+    
+    
+    }
+.resume15 .main .start .container1 .container22 .email img{
+
+    width: 14px;
+    height: 14px;
+    color: #FFE0E9;   
+    
+    
+    
+    }
+
+
+    .resume15 .main .start .container3{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+    .resume15 .main .start .container3 .first{
+        width: 20%;
+        background-color: white;
+        border-radius: 5px;
+
+    }
+    .resume15 .main .start .container3 .second{
+        margin-left: 10px;
+        width: 45%;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+    .resume15 .main .start .container3 .third{
+        width: 45%;
+        margin-left: 10px;
+        background-color: white;
+        border-radius: 5px;
+
+    }
+    
+    .resume15 .main .start .container3 .first h5{
+        padding: 10px;
+        font-size: 14px;
+        max-width: 170px;
+        overflow-wrap: break-word;
+        font-size: 12px;
+
+    }
+    .resume15 .main .start .container3 .first .interest .brown{
+        padding: 8px;
+        color: white;
+        border-top-left-radius: 17px;
+        margin-top: 20px;
+        width: 90%;
+        background-color: #522E38;
+        font-size: 13px;
+
+        
+    }
+    .resume15 .main .start .container3 .first .interest {
+margin-top:10px ;    }
+    .resume15 .main .start .container3 .first .interest  .one{text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 150px;
+        overflow-wrap: break-word;
+    }
+    .resume15 .main .start .container3 .first .interest  .one  i{ 
+        font-size: 30px;
+    }
+    .resume15 .main .start .container3 .first .interest  .one  h5{ 
+font-size: 14px;    }
+
+    .resume15 .main .start .container3 .first p{
+        padding: 8px;
+        color: white;
+        border-top-left-radius: 17px;
+        margin-top: 20px;
+        width: 90%;
+        background-color: #FF7AA2;
+        font-size: 13px;
+        }
+        
+    .resume15 .main .start .container3 .second p{
+        padding: 8px;
+        color: white;
+        border-top-left-radius: 17px;
+        margin-top: 20px;
+        width: 29%;
+        background-color: #522E38;
+        font-size: 13px;
+
+      
+        }
+              
+    .resume15 .main .start .container3 .third p{
+        padding: 10px;
+        background-color:#522E38 ;
+        color: white; 
+        border-top-left-radius: 17px;
+        margin-top: 20px;
+        width: 50%;
+        }
+
+
+        .resume15 .main .start .container3 .second .second11 {
+
+
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 0px;
+            max-width: 400px; overflow-wrap: break-word;
+        }
+        
+        .resume15 .main .start .container3 .second .second11 .first{
+            width: 30%;
+            padding: 10px;
+            background-color: white;
+        }
+        .resume15 .main .start .container3 .second .second11 .second{
+            width: 70%;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: white;
+
+        }
+        .resume15 .main .start .container3 .second .second11 .second h5{
+            margin-bottom: 10px;
+        }
+        .resume15 .main .start .container4{
+            background-color: white;
+            margin-top: -10px;
+        }
+        .resume15 .main .start .container4 p {
+            
+        padding: 8px;
+        color: white;
+        border-top-left-radius: 17px;
+        margin-top: 20px;
+        width: 16%;
+        background-color: #522E38;
+        font-size: 13px;
+
+
+
+        }
+      
+
+
+        .resume15 .main .start .container4 .CircularProgressbar .CircularProgressbar-path {
+            stroke: #E05780;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+    font-size: 10px;
+        
+        
+    }
+    .resume15 .main .start .container4  .circles{
+      
+        justify-content: flex-start;
+        margin: 20px 0px;
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        padding: 10px;
+        margin-right: 10px;
+        
+    }
+    .resume15 .main .start .container4  .circles .loading{
+        max-width: 120px;
+        margin: 10px 15px 0px;
+    }
+    .resume15 .main .start .container4  .circles .loading h5{
+
+max-width: 120px;
+overflow-wrap: break-word;
+text-align: center;
+
+
+    }
+    .resume15 .main .start .container5 {
+        background-color: white;
+        margin-top: -10px;
+    }
+    
+    .resume15 .main .start .container5 .main{
+        display: flex;
+        justify-content: flex-start;
+        overflow-wrap: break-word;
+      
+
+    }
+    .resume15 .main .start .container5 .main .first{
+        overflow-wrap: break-word;
+        width: 50%;
+       
+    }
+    .resume15 .main .start .container5 .main .second{
+        width: 50%;
+        overflow-wrap: break-word;
+
+    }
+
+    .resume15 .main .start .container5 .main .first p{
+        padding: 8px;
+        background-color:#522E38 ;
+        color: white; 
+        border-top-left-radius: 17px;
+        margin-top: 20px;
+        width: 34%;
+      
+        }
+        .resume15 .main .start .container5 .main .second p{
+            padding: 8px;
+            background-color:#522E38 ;
+            color: white; 
+            border-top-left-radius: 17px;
+            margin-top: 20px;
+            width: 34%;
+            }
+            .resume15 .main .start .container5 .main .second h5{
+margin-top: 10px;
+font-size: 14px;
+
+            max-width: 400px;
+        overflow-wrap: break-word;}
+        .resume15 .main .start .container5 .main .second h6{
+
+font-size:13px ;
+
+            max-width: 400px;
+        overflow-wrap: break-word;}
+        .resume15 .main .start .container5 .main .first h5{
+            margin-top: 10px;
+
+            font-size: 14px;
+
+
+            max-width:400px;
+        overflow-wrap: break-word;}
+        .resume15 .main .start .container5 .main .first h6{
+            font-size:13px ;
+
+
+
+            max-width: 400px;
+        overflow-wrap: break-word;}
+    
+    
+
+        .resume15 .CircularProgressbar .CircularProgressbar-text {
+            fill: black;
+            font-size: 9px;
+            dominant-baseline: middle;
+            text-anchor: middle;
+        }
+        .resume15 .main .start .container6  p{
+            padding: 8px;
+            background-color:#522E38 ;
+            color: white; 
+            border-top-left-radius: 17px;
+            margin-top: 20px;
+            width: 17%;
+            margin-left: 27px;
+            
+
+            }
+            .resume15 .main .start .container6{
+                background-color: white;
+                margin-top: -7px;
+            }
+            .resume15 .main .start .container2 h5{
+                max-width: 900px;
+                overflow-wrap: break-word;
+                font-size: 15px;
+                margin-top: 10px;
+            }
+
+
+            .resume15 .main .start .container6 .lang{
+                display: flex;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                margin-top: 10px;
+                margin-left: 27px;
+                background-color: white;
+            }
+            .resume15 .main .start .container6 .lang div {
+                margin-right: 80px;
+            }
+            .resume15 .main .start .container6 .lang div  h4{
+font-size: 17px; 
+margin-bottom: 10px;           }
+            
+
+
+
+
+            
+    .resume15   progress {
+        color: #E05780;;
+        width: 200pt;
+        height: 8px;
+        margin-bottom: 12px;
+    }
+    
+    
+    .resume15   progress::-moz-progress-bar {
+        background: #E05780;;
+        border: solid 3pt #E05780;;
+        width: 150pt;
+    }
+    
+    .resume15  progress::-webkit-progress-value {
+        background: #E05780;;
+        border: solid 3pt #E05780;;
+        width: 150pt;
+    }
+    
+    .resume15   progress[aria-valuenow]:before {
+        background :#E05780;;
+        border: solid 3pt #E05780;;
+        width: 150pt;
+    }
+    
+    
+    .resume15    progress {
+        -webkit-appearance: none;
+        appearance: none;
+    } 
+
+
+
+

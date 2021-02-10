@@ -1,0 +1,807 @@
+
+.resume6{
+    font-family: 'Montserrat';
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+}
+
+.resume6 .content{
+    min-width: 1050px;
+    max-width: 1050px;
+    max-height: 1250px;
+    min-height: 1250px;
+   padding-left: 2px;
+   padding-right: 12px;  
+    
+}
+.resume6 .nameandprofession{
+    background-color: #FFEEDD;
+    padding: 10px 70px;
+   
+}
+
+.resume6 .nameandprofession p
+{
+margin-top: 3px;
+font-size: 12.5px;
+
+}
+.resume6 .nameandprofession h3 .bolder{
+   
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0.3rem;
+    color: #9381FF;
+    font-weight: 700;
+  overflow-wrap: break-word;
+}
+
+    
+
+
+.resume6 .nameandprofession h3 .lighter{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #9381FF;
+    overflow-wrap: break-word;
+
+
+  
+
+}
+
+
+.resume6 .content .third1 .second .flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.resume6 .content .third1 .second .flex div i {
+    padding: 0px;
+    height: 50px;
+    width: 50px;
+    padding: 10px ;
+    padding-right: 70px;
+    padding: 0px;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    padding-right: 70px;
+    font-size: 34px;
+}
+.resume6 .content .third1 .second .interests{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.resume6 .content .third1 .second .interests i{
+ 
+    
+    
+}
+.resume6 .content .third1 .second .progress .progress12345{
+    padding:4px ;
+    margin-left: 0px;
+}
+.resume6 .content .third1 .second .progress .skillsh4{
+    margin-top: 10px;
+    margin-left: 0px;
+
+}
+.resume6 .content .third1 .second .progress .progress12345 .title{
+    overflow-wrap: break-word;
+    margin-left: 6px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    max-width: 200px;}
+.resume6 .content .third1 .second .progress h4{
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-top: 11px;
+}
+
+
+.resume6 .content .third1 .first .line{
+    border-right: 1px solid black;
+    border-right: 1px solid black;
+    min-width: 268px;
+}
+.resume6 .content .third1 .first .span{
+
+
+
+margin-left: 4px;border: 1px solid  #B8B8FF;
+margin-bottom: 0px;
+margin-left: 6px;
+width: 115px;
+overflow-wrap: break-word;
+
+
+
+
+}
+
+.resume6 .nameandprofession .combine{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 12px;
+  
+ 
+    }
+
+
+
+    .resume6 .start .first .contact1 img {
+               
+   
+        margin-right: 9px;
+        background-color: #F8F7FF;
+        width: 17px;
+        height: 17px;
+           }
+
+
+
+
+
+
+
+
+
+
+
+    .resume6 .start{
+        display: flex;
+        justify-content: flex-start;
+        border-bottom: 1px solid #B8B8FF;;
+        
+        
+       
+          }
+          .resume6 .start .first{
+           width: 25%;
+            margin: 0px;
+           margin-top: 30px;
+           margin: 8px 10px;
+           overflow-wrap: break-word;
+          
+          
+            
+            
+           
+              }
+              .resume6 .start .first p{
+               font-size: 13px;
+               font-weight: 600;
+               margin-bottom: 9px;
+               overflow-wrap: break-word;
+               padding: 0px 20px;
+                 
+                 
+                
+                   }
+                .resume6 .start .first{
+                    border-right: 1px solid black;
+                    overflow-wrap: break-word;
+                    padding: 10px;
+                    border-right: 1px solid black;
+                    overflow-wrap: break-word;
+                    padding: 10px 15px;
+                 
+                   
+                                  }
+              .resume6 .start .first .contact1 li{
+
+                  max-width: 204px;
+              
+              }
+
+              
+
+              .resume6 .start .first .contact1 {
+               
+                display: flex;
+                list-style: none;
+                font-size: 13px;
+                align-items: center;
+                margin-bottom: 10px;
+                overflow-wrap: break-word;
+                justify-content: flex-start;
+
+               
+                
+                   }
+                   .resume6 .start .first .contact1 i {
+               
+                  
+                        font-size: 12px;
+                    
+                    
+                    
+                   
+                    
+                       }
+
+
+              
+              .resume6 .start .first p{
+                font-size: 12px;
+                 
+                
+                   }
+              .resume6 .start .second{
+                width: 75%;
+                padding: 0px;
+                margin: 0px;
+                overflow-wrap: break-word;
+                 
+                 
+                
+                   }
+                   .resume6 .start .second .secondfirst .intro{
+                    font-size: 11px;
+                    font-weight: 600;
+                    margin-top: 11px;
+                     
+                        }
+                        .resume6 .start .second .secondfirst .paragraph{
+                            margin-top: 7px;
+                            font-size: 14px;
+                            letter-spacing: 0;
+                            padding-right: 200px;
+                            padding: 2px 2px;
+                            margin-top: 7px;
+                            font-size: 14px;
+                            letter-spacing: 0;
+                            padding-right: 200px;
+                            padding: 2px 2px;
+                            max-width: 700px;
+                            min-width: 700px;
+                             
+                                }
+
+                        .resume6 .start .second .secondfirst {
+                            padding: 9px;
+                       
+                        }
+
+
+
+
+
+.resume6 .start .second .secondsecond{
+display: flex;
+justify-content: space-between;
+font-size: 12px;
+margin-top: 52px;
+overflow-wrap: break-word;
+
+}
+
+
+
+.resume6 .start .second .secondsecond .workexp{
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    align-items: center;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+    /* max-width: 208px; */
+    justify-content: flex-start;
+       
+       
+      
+         }
+        
+
+                 .resume6 .start .second .secondsecond .whiteline{
+                    width: 70%;
+                    font-size: 14px;
+                    font-weight: 600;
+                    display: flex;
+                    justify-content: flex-start;
+                    padding: 0px 27px;
+                    overflow-wrap: break-word;   }
+                 .resume6 .third{
+                     display: flex;
+                     border-bottom: 1px solid #B8B8FF;;
+                 }
+                 .resume6 .third1{
+                 display: flex;
+                 
+                    border-bottom: 1px solid #B8B8FF;;
+                }
+                .resume6 .third1 .first{
+                    width: 70%;
+                    font-size: 14px;
+                    font-weight: 600;
+                    letter-spacing: 0.1rem;
+                    display: flex;
+                    justify-content: flex-start;
+                    padding: 0px;
+                    overflow-wrap: break-word;
+                    min-width: 426px;
+
+                }
+               
+
+                .resume6 .content  .third1 .first .Workexperience h4{
+                    font-size: 11px;
+                    font-weight: 600;
+                    letter-spacing: 0.1rem;
+                    margin-top: 11px;
+                }
+                
+                .resume6 .content  .third1 .first .Workexperience{
+                    padding-left: 12px;
+                    overflow-wrap: break-word;
+                }
+                .resume6 .content  .third1 .first .workdate{
+                    padding: 13px;
+                    font-size: 12px;
+
+                }
+               
+                .resume6 .content  .third1  .second .skills  .skills1 h6{
+                    padding: 10px 2px;
+                    font-size: 13px;
+                    font-weight: 700;
+                }
+                .resume6 .content  .third1  .second .skills  .skills1 p{
+                    
+                    overflow-wrap: break-word;
+                    margin-top: -7px;
+                    margin-bottom: 11px;
+                    font-size: 11px;
+                    /* margin-top: 0px; */
+                    margin-left: 3px;
+                    max-width: 200px;
+                    
+                }
+                .resume6 .content  .third1 .first .workdate{
+                    padding-right: 104px;
+                    overflow-wrap: break-word;
+                    padding-left: 45px;
+                    
+                }
+
+                .resume6 .content  .third1 .first .Workexperience div{
+                height: 100px;
+                overflow-wrap: break-word;
+
+                }
+
+                .resume6 .third1 .second{
+                    width: 30%;
+                    font-size: 14px;
+               font-weight: 600;
+               letter-spacing: 0.1rem;
+               
+
+               
+                }
+
+                .resume6 .third1 .second h4{
+                    font-size: 11px;
+                    font-weight: 600;
+                    letter-spacing: 0.1rem;
+                    margin-top: 11px;
+                }
+                .resume6 .content  .third1 .first .workdate p{
+                    margin-bottom: 35px;
+                    overflow-wrap: break-word;
+                    margin-top: 0px;
+                    margin-top: 27px;
+                    font-size: 12px;
+             }
+                
+
+
+                 .resume6 .third .first{
+                    width: 20%;
+                    font-size: 14px;
+               font-weight: 600;
+               letter-spacing: 0.1rem;
+               margin-left: 68px;
+               overflow-wrap: break-word;
+
+               
+                }
+
+
+
+
+                .resume6 .third .first .firstthird{
+                   
+                    margin-top: 17px;
+                    max-width: 120px;
+                    margin-bottom: 54px;
+
+                 
+                } 
+                
+                
+
+            
+                     
+                .resume6 .third .second{
+                    display: flex;
+                    width: 40%;
+                    width: 220px;
+                    font-size: 12px;
+                    margin-left: -58px 
+                }
+                .resume6 .third .third{
+                    width: 40%;
+                    margin-left: 120px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                }
+
+            
+                .resume6 .third .second .exp1{
+                    margin-left: 7px;
+                    display: inline;
+                    margin-top: 9px;
+                    border-left: 1px solid#B8B8FF;
+                    width: 233px;
+                    overflow-wrap: break-word;
+
+
+                 }
+
+
+                 .resume6 .third .second .exp1 div{
+                    
+                    overflow-wrap: break-word;
+                    margin-top: 10px;
+
+                 }
+
+
+ 
+                 .resume6 .third1 .first .Workexperience .round{
+                    height: 9px;
+                    width: 9px;
+                    border: 1px solid black;
+                    border-radius: 50%;
+                    display: inline-block;
+                    position: relative;
+                    top: 17px;
+                    left: -17px;
+                 }
+                  .resume6 .third .second .exp1 .workdetails{
+                    font-size: 12px;
+                    font-weight: 600;
+                    margin-left: 13px;
+                    color: #9381FF;
+                    letter-spacing: 0.01rem;
+                    margin-top: -14px;
+                    
+                  
+                 }
+                 
+                
+ 
+                 .resume6 .third1 .first .Workexperience .companyname{
+                   
+                    color: #9381FF;
+                    font-size: 15px;
+                    color: #9381FF;
+                    font-size: 15px;
+                    max-width: 400px;
+                    overflow-wrap: break-word;
+
+                  
+                 }
+                 .resume6 .third1 .first .Workexperience .companyname2{
+                   
+                    font-size: 13px;
+                    max-width: 400px;
+                    overflow-wrap: break-word;
+                  
+                 }
+                 .resume6 .third1 .first .Workexperience .workexp{
+                   
+                    font-size: 11px;    max-width: 400px;
+                    overflow-wrap: break-word;
+
+                  
+                 }
+             
+                 .resume6 .third .second .exp1 .something{
+                    font-size: 12px;
+                    margin-left: 12px;
+                    margin-top: -4px;
+                  }
+                  .resume6 .third .third{
+                      display: flex;
+                      flex-direction: column;
+                      border-bottom: 0px
+                  }
+                 
+                  .resume6 .third .third .software1{
+                   margin-top: 15px;
+                   display: flex;
+                   justify-content: flex-start;
+                   margin-left: 93px;
+                   flex-wrap: wrap;
+                   
+
+                  
+                }
+             
+             .resume6 .content .third1 .second .circle {
+                display: inline-block;
+                 border: 1px solid black;
+                 border-radius: 50%;
+                 height: 65px;
+                 color: white;
+                   width: 65px;
+                   
+                   font-size: 11px;
+                            
+                   background-color: black;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   margin-left: 5px;
+                   margin-top: 5px;
+                   padding: 20px;
+                
+            }
+            
+               
+             .resume6 progress {
+                color: #FFD8BE;
+                width: 200pt;
+                height: 3px;
+            }
+            
+          
+            .resume6  progress::-moz-progress-bar {
+                background: #FFD8BE;
+                border: solid 1pt #FFD8BE;
+                width: 150pt;
+                height: 3px;
+            }
+            
+            progress::-webkit-progress-value {
+                background:  #FFD8BE;
+                border: solid 1pt #FFD8BE;
+                width: 150pt;
+                height: 3px;
+            }
+            
+            .resume6   progress[aria-valuenow]:before {
+                background:#FFD8BE;
+                border: solid 1pt #FFD8BE;
+                width: 150pt;
+                height: 3px;
+            }
+            
+            
+            .resume6  progress {
+                -webkit-appearance: none;
+                appearance: none;
+                background-color: white;
+                height: 4pt;
+            } 
+
+            .resume6 .third .third  .skills{
+              margin-left: 108px;
+              margin-top: 16px;
+                
+
+               
+             }
+             .resume6 .third .third  .skills  .second{
+                display: inline-block;
+                
+                  margin-left: 0px;
+                  margin-top: 15px;  
+                 
+               }
+               .resume6 .third .third  .skills  .second .progress123{
+                margin-top: -6px;
+                  
+  
+                 
+               }
+            
+
+
+
+
+
+               /* thirdlast */
+           
+
+               .resume6 .third .thirdlast{
+                   margin-left: 18%;
+                   margin-top: 10px;
+               }
+               .resume6 .third .thirdlast .interests{
+                   font-size: 12px;
+                   font-weight: 600;
+                   letter-spacing: 0.1rem;
+                
+            } .resume6 .third .thirdlast .interests1{
+
+
+                display: flex;
+                flex-wrap: wrap;
+                width: 200px;
+                
+            }
+            .resume6 .third .thirdlast .interests1 img{
+width: 80px;
+height: 80px;
+
+
+               margin-right: 10px;
+               margin-bottom: 5px;
+                
+            }
+
+
+
+
+
+
+
+
+/* ss */
+.resume6 .third .thirdlast1{
+    margin-left: 28%;
+    margin-top: 10px;
+}
+.resume6 .third .thirdlast1 .interests{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: -68px;
+ 
+} .resume6 .third .thirdlast1 .interests1{
+
+
+ display: flex;
+ flex-wrap: wrap;
+ width: 300px;
+ margin-left: -72px;
+ 
+}
+.resume6 .third .thirdlast1 .interests1 img{
+width: 40px;
+height: 40px;
+
+
+margin-right: 22px;
+margin-bottom: 5px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resume6 .fourth .first{
+    font-size: 11px;
+}
+
+            .resume6 .fourth{
+                display: flex;
+            }
+
+            .resume6 .fourth .first h3{
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .resume6 .fourth .first p{
+                max-width: 500px;
+                overflow-wrap: break-word;
+            }
+            .resume6 .fourth .first{
+width: 60%;            }
+
+.resume6 .fourth .second{
+    width: 40%; }
+
+
+
+    .resume6 .fourth .first .heading{
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        margin-top: 11px;
+        margin-bottom: 10px;
+
+
+}
+.resume6 .fourth .first  .fa-plus{
+font-size: 15px;
+position: relative;
+top: -8px;
+left: -4px;
+margin-bottom: 5px;
+   color: #9381FF;
+}
+.resume6 .fourth .first div{
+    margin-bottom: 5px;
+    margin-left: 38px;
+max-width: 400px;}
+
+.resume6 .fourth .second .heading1{
+    margin-left: 36px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.resume6 .fourth .second .language{
+    padding-left: 35px;
+    max-width: 250px;
+    overflow-wrap: break-word;
+    padding-bottom: 10px;
+
+}
+.resume6 .fourth .second .heading1 .p{
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-top: 11px;
+}
+.resume6 .fourth .second .heading2{
+    margin-left:35px;
+    font-size: 12px;
+    margin-bottom: 17px;
+    
+
+}
+.resume6 .fourth .second .heading2 .subheading2 p{
+    overflow-wrap: break-word;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    margin-top: 0px;
+    max-width: 200px;
+}
+.resume6 .fourth .second .heading2 .subheading2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-bottom: 5px
+}
+.resume6 .fourth .second .heading2 .subheading2 div i{
+  margin-right: 12px;
+}
+.resume6 .fourth .second .heading2 .subheading2 div .first{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  .resume6 .fourth .second .heading2 .subheading2 div p{
+    
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-top: 3px;
+    min-width: 195px;
+  }

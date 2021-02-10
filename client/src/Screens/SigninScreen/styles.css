@@ -1,0 +1,109 @@
+.login{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;  
+}
+.login .image-background{
+  min-height: 70%;
+  min-width: 70%;
+  background-image: url("../../images/CardBase.png");
+  background-size: cover;
+  background-position: center center;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;  
+}
+.login .content{
+  margin: 0 100px;
+}
+.login .form{
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.login .form h1{
+  font-weight: 500;
+
+}
+.login .form .username{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.login .form .password{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.login .form label {
+  margin: 8px 0;
+  display: block;
+  color: #A99A77;
+}
+.login .form input{
+  padding: 5px 10px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid #AE9739;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 30px -9px rgba(148,140,148,0.94);
+  -moz-box-shadow: 0px 7px 30px -9px rgba(148,140,148,0.94);
+  box-shadow: 0px 7px 30px -9px rgba(148,140,148,0.94)
+}
+.login .form input:focus{
+  border-color: rgb(157, 157, 223);
+}
+.login .form .forgot-pass{
+  color: #A99A77;
+  font-size: 15px;  margin-top: 10px;
+
+}
+.login .form-button{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.login .form-button>button{
+  padding: 8px 10px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  background-color: #AE9739;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 15px 0;
+}
+.login .form .confirm{
+  display: flex;
+  flex-direction: column;
+}
+.login .form p{
+  color: #A99A77;
+  font-size: 15px;
+}
+.login .form a{
+  color: #AE9739;
+  text-decoration: none;
+}
+/* Responsiveness */
+/* Max Screen Size = 1050px */
+@media only screen and (max-width: 1050px) {
+  .image-background{
+    height: 90%;
+    width: 90%;
+  }
+}
+/* Max Screen Size = 850px */
+@media only screen and (max-width: 850px) {
+  body{
+    background-color: #F0F0F2;
+  }
+  .image-background{
+    background-image: none;
+    align-items: center;
+    justify-content: center;
+  }
+}

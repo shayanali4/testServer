@@ -1,0 +1,17 @@
+#print-content{
+    transform: scale(0.75);
+    width: fit-content;
+    margin: 50 auto;
+    -webkit-print-color-adjust: exact !important;
+    background-color: white;
+}
+@media print {
+body {-webkit-print-color-adjust: exact;}
+}
+
+.generatePDF #print-content {
+  position: relative;
+}
+.generatePDF #print-content .opacity-img{
+    display: none;
+}

@@ -1,0 +1,342 @@
+.template-screen{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FAFBFC;
+}
+.template-screen .first-portion{
+    height: 90%;
+    width: 20%;
+}
+.template-screen .first-portion .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 30%;
+}
+.template-screen .first-portion .text p{
+    margin: 1px 0px;
+}
+.template-screen .first-portion .text .first-text{
+    color: #A99A77;
+    font-size: 18px;
+    font-weight: 550;
+}
+.template-screen .first-portion .text .second-text{
+    color: #1E1950;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.template-screen .first-portion .text .third-text{
+    color: #1E1950;
+    font-size: 26px;
+    font-weight: 550;
+}
+.template-screen .first-portion .text .third-text b{
+    color: #A99A77;    
+}
+.template-screen .first-portion .steps-part{
+    height: 70%;
+}
+.template-screen .first-portion .steps-part .info{
+    height: 20%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.template-screen .first-portion .steps-part .info p{
+    color: #A99A77;       
+}
+.template-screen .first-portion .steps-part .steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+.template-screen .first-portion .steps-part .steps>div{
+    width: 65%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 35px;
+    color: #1E1950;
+    border-left: 1px solid #A99A77;
+    position: relative;
+}
+.template-screen .first-portion .steps-part .steps>div:first-child{
+    align-items: flex-start;
+}
+.template-screen .first-portion .steps-part .steps>div:nth-child(2){
+    align-items: center;
+}
+.template-screen .first-portion .steps-part .steps>div:last-child{
+    align-items: flex-end;
+}
+.template-screen .first-portion .steps-part .steps>div span{
+    height: 15px;
+    width: 15px;
+    background-color: #FAFBFC;
+    border: 3px solid #A99A77;
+    border-radius: 50%;
+    position: absolute;
+    left: -8px;
+}
+.template-screen .first-portion .steps-part .steps>div span.current{
+    background-color: #A99A77;
+}
+.template-screen .first .steps-part .steps>div span.first-circle{
+    top: 0px;
+}
+.template-screen .first-portion .steps-part .steps>div span.second-circle{
+    top: 35px;
+}
+.template-screen .first-portion .steps-part .steps>div span.third-circle{
+    bottom: 1px;
+}
+.template-screen .second-portion{    
+    max-height: 90%;
+    height: 80%;
+    min-height: fit-content;
+    width: 30%;
+    min-width: 300px;
+    background-color: #1E1950;
+}
+.template-screen .third-portion{    
+    height: 75%;
+    padding-top: 15px;
+    max-width: 30%;
+    min-width: 400px;
+    min-height: 340px;
+    background-color: #FAFBFC;
+    -webkit-box-shadow: 2px 11px 77px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 2px 11px 77px 0px rgba(0,0,0,0.17);
+    box-shadow: 2px 11px 77px 0px rgba(0,0,0,0.17);
+}
+.template-screen .third-portion .buttons{ 
+    margin: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+.template-screen .third-portion .buttons .preview{
+    padding: 6px 14px;
+    background-color: #1E1950;
+    font-weight: bold;
+    color: white;
+    outline: none;    
+    cursor: pointer;
+    transition: 0.7s;
+}
+.template-screen .third-portion .buttons .preview:hover{  
+    border-radius: 20px;
+}
+.template-screen .third-portion .buttons .create{  
+    padding: 6px 14px;
+    background-color: #A99A77;
+    font-weight: bold;
+    color: white;
+    outline: none;  
+    cursor: pointer;
+    transition: 0.7s;
+}
+.template-screen .third-portion .buttons .create:hover{  
+    border-radius: 20px;
+}
+.FittedImage{
+    width: 100%;
+    height: 100%;
+    max-width: 140px;
+}
+.gallery .column {
+    float: left;
+    margin: 10px;
+    min-width: 170px;
+    max-width: 140px;
+    border: 2px solid #1E1950;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.gallery .column.selected{
+    border: 3px solid #A99A77;
+}
+.gallery .column.selected img{
+    opacity: 1;
+}
+.gallery .column>div>div>div>div {
+    margin: 0!important;
+}
+.gallery .column img {
+    opacity: 0.8;
+    cursor: pointer;
+    max-width: 100%;
+    min-width: 100px;
+}
+.template-screen .gallery .column img:hover {
+  opacity: 1;
+}
+.template-screen .gallery{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow-x: hidden;
+    padding-bottom: 15px;
+}
+.template-screen .gallery::-webkit-scrollbar {
+  width: 5px;
+}
+.template-screen .gallery::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  width:2px;
+}
+.template-screen .gallery::-webkit-scrollbar-thumb {
+  background: #1E1950; 
+}
+.template-screen .gallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.template-screen .container {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: fit-content;
+}
+.template-screen .container img{
+    min-width: 300px;
+    max-width: 100%;
+
+}
+.template-screen #imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+.template-screen .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.template-screen .modal-body img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .template-screen{
+        align-items: center;
+    }
+    .template-screen .modal-content{
+        width: 90%;
+    }
+    .template-screen .first-portion{
+        width: 80%;
+        height: fit-content;
+    }
+    .template-screen .first-portion .text{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .template-screen .first-portion .text>p{
+        white-space: nowrap;
+    }
+    .template-screen .first-portion .steps-part{
+        padding-top: 20px;
+        height: fit-content;
+    }
+    .template-screen .first-portion .steps-part .info{
+        padding: 0;
+    }
+    .template-screen .second-portion{
+        max-width: 50%;
+        height: fit-content;
+        min-height: 320px;
+    }
+    .template-screen .third-portion{
+        height: 20%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .template-screen{
+        padding: 40px 0;
+        height: fit-content;
+    }
+    .template-screen .modal-content{
+        min-height: fit-content;
+    }
+    .template-screen .first-portion{
+        height: 80%;
+        width: fit-content;
+    }
+    .template-screen .first-portion .text{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .template-screen .first-portion .steps-part .steps{
+        width: 80%;
+        white-space: nowrap;
+        padding: 20px 0;
+    }
+    .template-screen .first-portion .steps-part .steps>div{
+        height: 50px;
+    }
+    .template-screen .first-portion .steps-part .steps>div span.second-circle{
+        top: 17px;
+    }
+    .template-screen .second-portion{
+        height: fit-content;
+        min-height: 360px;
+        margin: 20px 0;
+    }
+    .template-screen .third-portion{
+        display: flex;
+        flex-direction: column-reverse;
+        min-width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: none;
+        background-color: transparent;
+    }
+    .third-portion .select{
+        color: #1E1950;
+        font-size: 20px;
+        font-weight: 450;
+        margin: 10px 0;
+    }
+    .gallery .column {
+        min-width: 82px;
+        margin: 5px;
+        width: 25%;
+    }
+    .gallery .column img {
+        max-width: 0px;
+        min-width: 76px;
+    }
+    .gallery{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}

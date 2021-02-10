@@ -1,0 +1,969 @@
+
+.resume8{
+    margin: 20px auto;
+  
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;    
+    background-color:white
+}
+.resume8 .main{
+    width: 100%;
+    padding: 20px 40px;
+    min-width: 1050px;
+    max-width: 1050px;
+    max-height: 1250px;
+    min-height: 1250px;
+}
+.resume8 .main .start{
+    display: flex;
+    background-color: #A5C6D2;
+}
+
+.resume8 .main .start .first{
+width: 30%;
+text-align: center;
+margin-top: -18px;
+margin-right: 20px;
+}
+
+
+
+.resume8 .main .start .first .firstname{
+    font-size: 36px;
+    margin-bottom: -21px;
+    margin-left: 0px;
+    font-weight: lighter;
+    margin-top: 52px;
+    }
+
+    
+.resume8 .main .start .first .lastname{
+    font-weight: 900;
+    font-size: 31px;
+    margin-top: 12px;
+    max-width: 300px;
+    }
+    .resume8 .main .start .first .profession{
+        margin-left: -26px;
+        margin-top: 0px;
+        margin-left: 9px;
+          }
+
+.resume8 .main .start .second{
+    width: 70%;
+    margin-top: 25px;
+}
+.resume8 .main .start .second .firstname{ 
+   font-weight: bolder;
+   max-width: 290px;
+}
+.resume8 .main .start .second .summary{ 
+   font-size:14px;
+   margin-bottom: 30px;
+   
+ }
+ .resume8 .main .start .second .rightpad{ 
+    margin-right: 60px; }
+    .resume8 .main .start .second .details{ 
+        border-top: 1px solid #443B3C; 
+        border-bottom: 1px solid #443B3C;
+        margin-bottom: 27px;
+        align-items: center;
+    
+    display: flex;
+justify-content: space-between;
+}
+.resume8 .main .start .first1{
+    width: 50%;
+   
+    margin-top: 0px;
+  
+}
+.resume8 .main .start .second1{
+    width: 50%;
+    margin-top: 0px;
+  
+}
+.resume8 .main .start .second1 p{
+    margin-right: 10px;
+  
+}
+.resume8 .main .start  p{
+    
+    overflow-wrap: break-word;
+    margin-left: 6px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    max-width: 200px;
+  
+}
+
+
+.resume8 .main .start .first1 .first11{
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    margin-top: 13px;
+    max-width: 275px;
+    margin-bottom: 9px;
+  
+}
+.resume8 .main .start .first1 .first11 img{
+    width: 24px;
+    height: 20px;
+  
+}
+.resume8 .main .start .second1 .second11 img{
+    width: 24px;
+    height: 20px;
+  
+}
+.resume8 .main .start .second .second11{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    max-width: 250px;
+    /* justify-content: center; */
+    margin-bottom: 9px;
+  
+}
+.resume8 .main .start1 .sociallinks{
+    background-color: #A5C6D2 ;
+}
+
+
+.resume8 .main .start1{
+    margin-top: 10px;
+    padding: 5px 25px;
+}
+.resume8 .main .start1 .firstrow{
+    display: flex;
+    align-items: center;
+    background-color: #A5C6D2;
+    padding: 4px 
+    ;
+   
+}
+.resume8 .main .start1 .firstrow span{
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-right: 6px;
+    
+}
+
+.resume8 .main .start1 .firstrow  p{
+   margin-top: 1px;
+   font-size: 17px;
+   font-weight: 700;
+   letter-spacing: 0.01rem;
+   color: #5C7C89; 
+}
+.resume8 .main .start1 .firstrow  span{
+    margin-top: 1px;
+    background-color: #5C7C89;
+    border-bottom: 2px solid #5C7C89;;
+    width: 85%; 
+    
+ }
+ .resume8 .main .start1 .firstrow .line1{
+    margin-top: 1px;
+    background-color: #5C7C89;
+    border-bottom: 2px solid #5C7C89;
+    width: 74.5%; 
+
+ }
+
+ .resume8 .main .start1 .goals{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     background-color: #A5C6D2;
+
+ }
+ .resume8 .main .start1 .goals div{
+     margin-left: 8px;
+     
+ }
+ .resume8 .main .start1 .goals div p{
+    max-width: 180px;
+    font-size: 12px;
+    margin-bottom: 9px;
+    overflow-wrap: break-word;
+}
+.resume8 .main .start1 .goals div h6{
+    max-width: 200px;
+    font-size: 14px;
+}
+ .resume8 .main .start1 .secondrow1 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     align-items: center;
+     background-color: #A5C6D2;
+     padding: 10px 15px;
+
+ }
+ .resume8 .main .start1 .secondrow1  h6{
+     
+    max-width: 100px;
+    /* padding: 0px 21px; */
+    /* padding: 20px; */
+    /* padding: 0px 50px; */
+    /* padding-right: 82px; */
+    margin-right: 24px;}
+ .resume8 .main .start1 .secondrow .links{
+     margin-top: 20px;
+     margin-left: 8px;
+ }
+ .resume8 .main .start1 .secondrow  {
+   display: flex;
+   background-color: #A5C6D2;   
+   justify-content: space-between; 
+   margin-top: -16px;
+ }
+ .resume8 .main .start1 .secondrow .first  {
+  display: flex;
+  
+  }
+  .resume8 .main .start1 .secondrow .second  {
+    width: 33%;
+    }
+  
+    .resume8 .main .start1 .secondrow .third {
+        width: 33%;
+        }
+
+        .resume8 .main .start1 .secondrow .first .company{
+            margin-top: 13px;
+            margin-bottom: 5px;
+            max-width: 230px;
+            overflow-wrap: break-word;
+
+        }
+        .resume8 .main .start1 .secondrow .second .company{
+            margin-top: 10px;
+            margin-bottom: 17px;
+            max-width: 230px;
+            overflow-wrap: break-word;
+
+
+        }
+        .resume8 .main .start1 .secondrow .third .company{
+            margin-top: 10px;
+            margin-bottom: 17px;
+            max-width: 230px;
+            overflow-wrap: break-word;
+
+        }
+
+        .resume8 .main .start1 .secondrow .first .companyname  {
+           font-size: 13px;
+           font-weight: 700;
+           margin-right: 10px;
+           margin-left: 8px;
+           margin-bottom: 10px;
+           color: black;
+           margin-right: 103px;
+            }
+            .resume8 .main .start1 .secondrow .second .companyname  {
+                font-size: 13px;
+                font-weight: 700;
+                margin-left: 8px;
+                margin-bottom: 10px;
+                color: black;
+                 }
+                 .resume8 .main .start1 .secondrow .third .companyname  {
+                    font-size: 13px;
+                    font-weight: 700;
+                    margin-left: 8px;
+                    margin-bottom: 10px;
+                    color: black;
+                     }
+            
+ 
+.resume8 .main .start1 .secondrow .first ol  {
+              
+               margin: 0px;
+    padding: 0px 11px;
+    font-size: 11px ;
+    color:  #443B3C;
+                 }
+                 .resume8 .main .start1 .secondrow .second ol  {
+              
+                    margin: 0px;
+         padding: 0px 11px;
+         font-size: 11px ;
+         color:  #443B3C;
+                      }
+                      .resume8 .main .start1 .secondrow .third ol  {
+              
+                        margin: 0px;
+             padding: 0px 11px;
+             font-size: 11px ;
+             color:  #443B3C;
+                          }
+
+.resume8 .main .start1 .secondrow .first ol li  {
+              
+             margin: 3px;
+             margin-top: -1px;
+                      }
+                      .resume8 .main .start1 .secondrow .third ol li  {
+              
+                        margin: 3px;
+                        margin-top: -1px;
+                                 }
+
+                      .resume8 .main .start1 .secondrow .second ol li  {
+              
+                        margin: 3px;
+                        margin-top: -1px;
+                                 }
+                                              
+                      .resume8 .main .start1 .secondrow .third ol li  {
+              
+                        margin: 3px;
+                        margin-top: -1px;
+                                 }
+      
+
+.resume8 .main .start1 .secondrow .first  .dateandp{
+    font-size: 12px ;
+    margin-top: 0px;
+    color:  #443B3C;;
+    max-width: 226px; overflow-wrap: break-word;
+
+
+} 
+.resume8 .main .start1 .secondrow .first .companyname .p  {
+    overflow-wrap: break-word;
+
+    margin-bottom: 6px;
+    max-width: 226px;
+    color:  #443B3C;;
+
+             }
+             .resume8 .main .start1 .secondrow .second  .dateandp{
+                font-size: 12px ;
+                margin-top: -10px;
+                color:  #443B3C;;
+                max-width: 230px;
+            } 
+            .resume8 .main .start1 .secondrow .second .companyname .p  {
+                          
+                margin-bottom: 6px;
+                max-width: 230px;
+            
+                         }
+                         .resume8 .main .start1 .secondrow .second .companyname ol li{
+                             max-width: 230px;
+                         }
+
+
+                         .resume8 .main .start1 .secondrow .third .dateandp{
+                            font-size: 12px ;
+                            margin-top: -10px;
+                            color:  #443B3C;;
+                            max-width: 230px;
+                        } 
+                        .resume8 .main .start1 .secondrow .third .companyname .p  {
+                                      
+                            margin-bottom: 6px;
+                        
+                                     }
+
+
+.resume8 .main .start2{
+  margin-top: 10px;
+  padding: 5px 0px;
+   }
+.resume8 .main .start2 .firstrow{
+    display: flex;
+    align-items: center;
+ background-color: #A5C6D2; 
+  
+                                       
+  }
+  .resume8 .main .start2 .firstrow span{
+   border-bottom: 1px solid black;
+    width: 100%;
+    margin-right: 6px;
+                                }
+      .resume8 .main .start2 .firstrow  p{margin-top: 1px; 
+    font-size: 17px;      
+                          
+    font-weight: 700; 
+     letter-spacing: 0.1rem; 
+      color: #5C7C89; 
+     }
+     .resume8 .main .start2 .firstrow  .line3{
+        margin-top: 1px;
+        background-color: #5C7C89;
+        border-bottom: 2px solid #5C7C89;;
+      width: 83%;
+     }
+
+
+     .resume8 .main .start2 .secondrow1 .languages{
+         display: flex;
+         justify-content: space-between;
+         
+     }
+     .resume8 .main .start2 .secondrow1 p{
+          /* padding: 0px 14px; */
+    font-size: 11px;
+    padding-right: 40px;
+    padding-left: 10px;
+    }
+
+
+     .resume8 .main .start2 .secondrow1 {
+         margin-top: 0px;
+     }
+
+
+     .resume8 .main .start2 .firstrow  span{
+         margin-top: 1px;
+         background-color: #5C7C89;
+         border-bottom: 2px solid #5C7C89;;
+       width: 86%; 
+                                        
+                                     }
+.resume8 .main .start2 .secondrow  {
+       display: flex;
+       background-color: #A5C6D2;   
+       justify-content: space-between; 
+       margin-top: -16px;
+     }
+     .resume8 .main .start2 .secondrow .first  {
+      }
+      
+      
+        .resume8 .main .start2 .secondrow {
+          width: 100%;
+                    }
+            
+         .resume8 .main .start2 .secondrow .first .companyname  {
+            font-size: 13px;
+             font-weight: 700;
+            margin-left: 8px;
+            margin-bottom: 10px;
+            color: black;
+             }
+             .resume8 .main .start2 .secondrow .second .companyname  {
+                 font-size: 13px;
+                 font-weight: 700;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    color: black;
+     }
+      .resume8 .main .start2 .secondrow .third .companyname  {
+        font-size: 13px;
+        font-weight: 700;
+        margin-left: 8px;
+        margin-bottom: 10px;
+        color: black;
+         }
+                                                
+                                     
+.resume8 .main .start2 .secondrow .first ol  {                
+margin: 0px;
+        padding: 0px 11px;
+        font-size: 11px ;
+         color:  #443B3C;
+}                  
+.resume8 .main .start2 .secondrow .second ol  {
+                  
+    margin: 0px;
+    padding: 0px 11px;
+    font-size: 11px ;
+    color:  #443B3C;
+    }
+ .resume8 .main .start2 .secondrow .third ol  {
+                                              
+ margin: 0px;
+ padding: 0px 11px;
+font-size: 11px ;
+color:  #443B3C;
+                                                          }
+                                
+.resume8 .main .start2 .secondrow .first ol li  {
+ margin: 3px;
+ margin-top: -1px;
+                                                      }
+.resume8 .main .start2 .secondrow .third ol li  {
+                                                  
+ margin: 3px;
+  margin-top: -1px;
+                                                                     }
+                                    
+.resume8 .main .start2 .secondrow .second ol li  {
+                                                  
+ margin: 3px;
+ margin-top: -1px;
+                                                                     }
+                                                                                  
+.resume8 .main .start2 .secondrow .third ol li  {
+                                                  
+ margin: 3px;
+  margin-top: -1px;
+                                                                     }
+                                          
+                                    
+ .resume8 .main .start2 .secondrow .first  .dateandp{
+     font-size: 12px ;
+    margin-top: 6px;
+    color:  #443B3C;;
+    max-width: 230px;
+    overflow-wrap: break-word;
+                                    } 
+ .resume8 .main .start2 .secondrow .first .companyname .p  {
+   margin-bottom: 6px;
+                                    
+                                                 }
+ .resume8 .main .start2 .secondrow .second  .dateandp{
+    margin-bottom: 10px;
+    font-size: 12px;
+    margin-top: -6px;
+    color: #443B3C;
+    max-width: 230px;
+
+                                                } 
+.resume8 .main .start2 .secondrow .second .companyname .p  {
+ margin-bottom: 6px;
+ max-width: 230px;
+
+
+                                                             }
+  .resume8 .main .start2 .secondrow .third .dateandp{
+    margin-bottom: 10px;
+    font-size: 12px;
+    margin-top: -6px;
+    color: #443B3C;
+    max-width: 230px;
+                                                            } 
+
+ .resume8 .main .start2 .secondrow .third .companyname .p  {
+                                                                          
+ margin-bottom: 6px;
+                                                            
+ }
+
+
+
+
+
+
+
+ /* start3 */
+ .resume8 .main .start3{
+    margin-top: 14px;
+    padding: 5px 0px;
+    background-color:  #A5C6D2; ;
+     }
+  .resume8 .main .start3 .firstrow{
+      display: flex;
+      align-items: center;
+   background-color: #A5C6D2; 
+    
+                                         
+    }
+    .resume8 .main .start3 .firstrow span{
+     border-bottom: 1px solid black;
+      width: 100%;
+      margin-right: 6px;
+                                  }
+        .resume8 .main .start3 .firstrow  p{margin-top: 1px; 
+      font-size: 17px;
+      margin-bottom: 5px;      
+                            
+      font-weight: 700; 
+       letter-spacing: 0.1rem; 
+        color: #5C7C89; 
+       }
+       .resume8 .main .start3 .firstrow  span{
+           margin-bottom: 5px;
+           background-color: #5C7C89;
+           border-bottom: 2px solid #5C7C89;;
+         width: 91%; 
+                                          
+                                       }
+ 
+       .resume8 .main .start3 .secondrow .first  {
+           background-color: #A5C6D2;
+        width: 100%;
+        }
+        
+        
+          .resume8 .main .start3 .secondrow {
+            width: 100%;
+            margin-top: -4px;
+           
+                      }
+              
+           .resume8 .main .start3 .secondrow .first .companyname  {
+              font-size: 13px;
+               font-weight: 700;
+              margin-left: 8px;
+              margin-bottom: 10px;
+              color: black;
+               }
+               .resume8 .main .start3 .secondrow .second .companyname  {
+                   font-size: 13px;
+                   font-weight: 700;
+      margin-left: 8px;
+      margin-bottom: 10px;
+      color: black;
+       }
+       
+                                                  
+                                       
+
+  
+
+                                                                                    
+  .resume8 .main .start3 .secondrow .third ol li  {
+                                                    
+   margin: 3px;
+    margin-top: -1px;
+                                                                       }
+                                            
+                                      
+   .resume8 .main .start3 .secondrow .first  .dateandp{
+       font-size: 12px ;
+      margin-top: -10px;
+      color:  #443B3C;;
+                                      } 
+   .resume8 .main .star32 .secondrow .first .companyname .p  {
+     margin-bottom: 6px;
+                                      
+                                                   }
+   .resume8 .main .start3 .secondrow .second  .dateandp{
+      font-size: 12px ;
+      margin-top: -10px;
+      color:  #443B3C;;
+                                                  } 
+  .resume8 .main .start3 .secondrow .second .companyname .p  {
+   margin-bottom: 6px;
+  
+                                                               }
+    .resume8 .main .start3 .secondrow .third .dateandp{
+       font-size: 12px ;
+       margin-top: -10px;
+    color:  #443B3C;;
+                                                              } 
+  
+   .resume8 .main .start3 .secondrow .third .companyname .p  {
+                                                                            
+   margin-bottom: 6px;
+                                                              
+   }
+  
+   .resume8 .main .start3 .secondrow .first .progressbar{
+
+
+    margin-left: 8px;
+   }
+   /* .resume8 .main .start3 .secondrow .first .progressbar progress{
+
+
+   
+   } */
+   .resume8 progress {
+    color:#363636;  
+    border: 0px solid  #443B3C;
+    width: 150pt;
+    height: 3px;
+    background-color: #443B3C;
+}
+
+/* Firefox */
+.resume8  progress::-moz-progress-bar {
+    background: #443B3C;
+    border: solid 1pt  #443B3C;
+    width: 150pt;
+    height: 3px;
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+    background:  #443B3C;
+    border: solid 1pt #443B3C;
+    width: 150pt;
+    height: 3px;
+}
+
+/* Polyfill */
+.resume8   progress[aria-valuenow]:before {
+    background:#363636;;
+    border: solid 0pt#363636;;
+    width: 150pt;
+    height: 3px;
+}
+
+
+.resume8  progress {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.resume8 .main .start3 .secondrow .first .progressbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+   
+
+.resume8 .main .start3 .secondrow .first .progressbar  div p {
+    overflow-wrap: break-word;
+    margin-bottom: -10px;
+    font-size: 11px;
+    max-width: 204px;
+}
+.resume8 .main .start3 .secondrow .first .progressbar  div {
+    margin-bottom: 12px;
+    margin-right: 70px;
+}
+       
+
+
+
+
+
+
+
+
+
+
+.resume8 .main .start4{
+    margin-top: 10px;
+    padding: 5px 0px;
+    background-color:white ;
+    display: flex;
+     }
+  .resume8 .main .start4 .firstrow{
+      display: flex;
+      align-items: center;
+   background-color: #A5C6D2; 
+   width: 30%;
+   background-color: #A5C6D2;
+   
+    
+                                         
+    }
+    .resume8 .main .start4 .firstrow span{
+     border-bottom: 1px solid black;
+      width: 100%;
+      margin-right: 6px;
+                                  }
+        .resume8 .main .start4 .firstrow  p{margin-top: 1px; 
+      font-size: 17px;      
+                            
+      font-weight: 700; 
+       letter-spacing: 0.1rem; 
+        color: #5C7C89; 
+       }
+       .resume8 .main .start4 .firstrow  span{
+           margin-top: 1px;
+           background-color: #5C7C89;
+           border-bottom: 2px solid #5C7C89;;
+         width: 100%; 
+                                          
+                                       }
+
+                                       .resume8 .main .start4{
+    margin-top: 10px;
+    padding: 5px 0px;
+    background-color:white ;
+    display: flex;
+     }
+  .resume8 .main .start4 .firstrow{
+      display: flex;
+      align-items: center;
+   background-color: #A5C6D2; 
+   background-color: #A5C6D2;
+   width: 70%;
+   
+    
+                                         
+    }
+    .resume8 .main .start4 .firstrow span{
+     border-bottom: 1px solid black;
+      width: 100%;
+      margin-right: 6px;
+                                  }
+        .resume8 .main .start4 .firstrow  p{margin-top: 1px; 
+      font-size: 17px;      
+                            
+      font-weight: 700; 
+       letter-spacing: 0.1rem; 
+        color: #5C7C89; 
+       }
+       .resume8 .main .start4 .firstrow  span{
+           margin-top: 1px;
+           background-color: #5C7C89;
+           border-bottom: 2px solid #5C7C89;;
+         width: 100%; }
+                                          
+ .resume8 .main .start4 .firstrow span{
+ border-bottom: 1px solid black;
+  width: 100%;
+ margin-right: 6px;
+                                                                     }
+   .resume8 .main .start4 .firstrow  p{margin-top: 1px; 
+ font-size: 17px;      
+                          
+font-weight: 700; 
+letter-spacing: 0.1rem; 
+color: #5C7C89; 
+}
+.resume8 .main .start4 .firstrow  span{
+ margin-top: 1px;
+background-color: #5C7C89;
+border-bottom: 2px solid #5C7C89;;
+width: 88% 
+    }
+
+
+
+
+
+.resume8 .main .start4{
+margin-top: 10px;
+ padding: 5px 0px;
+ background-color:white ;
+  display: flex;
+                                        }
+                                    
+.resume8 .main .start4 .firstrow1{
+ display: flex;
+ align-items: center;
+background-color: #A5C6D2; 
+                margin-right:11px ;                    
+width: 30%;
+ background-color: #A5C6D2;
+                                      
+}
+.resume8 .main .start4 .firstrow1 span{
+ border-bottom: 1px solid black;
+  width: 30%;
+                                                                     }
+.resume8 .main .start4 .firstrow1  p{margin-top: 1px; 
+    font-size: 17px;
+    margin-left: 3px;
+                                                               
+ font-weight: 700; 
+  letter-spacing: 0.1rem; 
+ color: #5C7C89;            }
+.resume8 .main .start4 .firstrow1  span{
+margin-top: 1px;
+background-color: #5C7C89;
+ border-bottom: 2px solid #5C7C89;;
+width: 61%;   }
+
+
+.resume8 .main .start5{
+    margin-top: 10px;
+     padding: 5px 0px;
+     background-color:white ;
+      display: flex;
+      margin-top: -10px;
+      
+}
+.resume8 .main .start5 .row div i{
+    font-size: 30px;
+}
+.resume8 .main .start5 .row{
+    width: 30%;
+        background-color: #A5C6D2;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    justify-content: space-around;
+    color: #443B3C;
+    margin-right: 4px;
+   
+
+      
+}
+.resume8 .main .start5 .row div .val{
+    max-width: 32px;
+}
+
+.resume8 .main .start5 .row div img{
+    width: 30px; height: 20px;
+}
+.resume8 .main .start5 .row1{
+    width: 70%;
+    background-color: #A5C6D2;
+    display: flex;
+    font-size: 10px;
+    margin-left: 7px;
+
+
+  
+      
+}
+.resume8 .main .start5 .row div{ 
+ 
+  color: #443B3C;
+;
+ margin-bottom: 0px;
+ padding: 19px;   
+
+      
+}
+.resume8 .main .start5 .row1 div{ 
+ 
+  margin-left: 5px;
+  width: 50%;
+  margin-top: 0px;
+     
+  
+        
+  }
+  .resume8 .main .start5 .row1 div h4{ 
+ 
+    font-size: 14px;
+       font-weight: 700;
+       margin-bottom: 0px;
+    
+          
+    }
+    .resume8 .main .start5 .row1 div .designation{ 
+ 
+        margin-bottom: 3px;
+        max-width: 130px;
+        font-size: 12px;
+        overflow-wrap: break-word;
+
+       
+        
+              
+        }
+
+
+
+        .resume8 .main .start5 .row1 div .phone{
+            margin-top: 10px;
+            margin-bottom: 3px; max-width: 200px;  
+                      font-size: 12px;
+
+
+
+        }
+        .resume8 .main .start5 .row1 div .location{
+             max-width: 200px;
+             font-size: 12px;
+
+
+        }
+        .resume8 .main .start5 .row1 div .email{
+            max-width: 200px;
+            font-size: 12px;
+
+       }
+
+
+

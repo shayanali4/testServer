@@ -1,0 +1,364 @@
+
+.resumeTen{
+    width: 100%;
+    margin: 20px auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;  
+    background-color: #3f2e35;
+    /* background-color: gray;   */
+}
+.resumeTen .content{
+    min-width: 1050px;
+    max-width: 1050px;
+    min-height: 1250px;
+    max-height: 1250px;
+    
+}
+.resumeTen p{
+    font-size: 15px;
+    word-break: break-word;
+}
+.resumeTen h4{
+    font-weight: 550;
+    color: #56444c;
+}
+.resumeTen .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    padding-bottom: 30px;
+    min-width: 100%;
+}
+.resumeTen .name{
+    width: 100%;
+    height: 20%;
+    padding: 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3f2e35;
+    color: white;
+}
+.resumeTen .name .text{
+    max-width: 40%;
+    word-break: break-word;
+}
+.resumeTen .name .text h1{
+    font-weight: 450;
+}
+.resumeTen .name .text p{
+    font-weight: 450;
+    color: #c6bcc2;
+}
+.resumeTen .name .img img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+.resumeTen .profile{
+    width: 100%;
+    height: 10%;
+    padding: 35px 50px;
+    background-color: #56444c94;
+    color: #c6bcc2;
+}
+.resumeTen .profile p{
+    font-weight: 450;
+    font-size: 14px;
+}
+.resumeTen .main{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    word-wrap: normal;
+}
+.resumeTen .main>.left{
+    min-width: 35%;
+    max-width: 35%;
+    padding: 30px 0px;
+    padding-left: 50px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 100%;
+    max-height: 100%;
+    background-color: white;
+}
+.resumeTen .main .left .personal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.resumeTen .main .left .personal>div{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+.resumeTen .main .left .personal>div>p{
+    margin: 2px 0;
+    padding: 2px 5px;
+    padding-left: 0;
+    /* vertical-align: top; */
+
+}
+.resumeTen .main .left .personal>div>p:nth-child(odd){
+    font-weight: bold;
+    color: #8e0c3a;
+    width: 40%;
+
+}
+.resumeTen .main .left .personal>div>p:nth-child(even){
+    color: #8f325a;
+    width: 60%;
+}
+.resumeTen .main .left .address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.resumeTen .main .left .address>div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between; 
+    margin: 15px 0;   
+}
+.resumeTen .main .left .address>div p{
+    color: #8f325a;
+}
+.resumeTen .main .left .address>div p span{
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.resumeTen .main .left .hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.resumeTen .main .left .hobbies>div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;    
+}
+.resumeTen .main .left .hobbies>div>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 80px;
+    margin: 15px 0;
+}
+/* .resumeTen .main .left .hobbies>div>p{
+    width: 50%;
+    padding: 2px 5px;
+    padding-left: 0;
+} */
+.resumeTen .main .left .hobbies>div i{
+    color: #3f2e35;
+}
+.resumeTen .main .left .hobbies>div p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.resumeTen .main>.right{
+
+    min-width: 65%;
+    max-width: 65%;
+    padding: 30px 0px;
+    padding-left: 20px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 100%;
+    max-height: 100%;
+    background-color: rgba(253, 228, 228, 0.925);
+    	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 2px 20px -6px black
+}
+.resumeTen .main .right .work{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.resumeTen .main .right .work>div{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid;    
+}
+.resumeTen .main .right .work>div>div{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    margin: 15px 0;
+}
+.resumeTen .main .right .work>div span{
+    margin: 15px;
+    color: #8e0c3a;
+    font-weight: bold;
+}
+.resumeTen .main .right .work>div div h5{
+    color: #8e0c3a;
+    margin-bottom: 5px;
+}
+.resumeTen .main .right .work>div div p{
+    color: #8f325a;
+}
+.resumeTen .main .right .skills{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5px 0;  
+    width: 100%;  
+}
+.resumeTen .main .right .skills>div{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 15px 0;
+    flex-wrap: wrap;
+
+}
+.resumeTen .main .right .skills>div>div{
+    width: 10%;
+    margin: 5px;
+}
+.resumeTen .main .right .skills .CircularProgressbar .CircularProgressbar-trail {
+    stroke: #56444c94;
+    stroke-linecap: round;
+}
+.resumeTen .main .right .skills .CircularProgressbar .CircularProgressbar-path {
+    stroke: #3f2e35;
+
+}
+.resumeTen .main .right .skills .CircularProgressbar .CircularProgressbar-text {
+    fill: #3f2e35;
+    font-size: 12px;
+}
+.resumeTen .main .right .education{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.resumeTen .main .right .education>div{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid;    
+}
+.resumeTen .main .right .education>div>div{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    margin: 15px 0;
+}
+.resumeTen .main .right .education>div span{
+    margin: 15px;
+    color: #8e0c3a;
+    font-weight: bold;
+}
+.resumeTen .main .right .education>div div h5{
+    color: #8e0c3a;
+    margin-bottom: 5px;
+}
+.resumeTen .main .right .education>div div p{
+    color: #8f325a;
+}
+
+.resumeTen .links{
+    width: 100%;
+    height: 20%;
+    padding: 35px 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #56444c94;
+    color: white;
+    word-break: keep-all;
+}
+.resumeTen .links>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 120px;
+    margin: 10px;
+}
+.resumeTen .main .left .goals{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5px 0;
+    width: 100%;
+}
+.resumeTen .main .left .goals>div{
+
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: space-between; */
+    width: 100%;
+    /* flex-wrap: wrap; */
+    margin: 15px 0;
+}
+.resumeTen .goals .inner-div>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.resumeTen .goals .inner-div>div p{
+    width: 50%;
+    color: #8f325a;
+
+}
+.resumeTen .goals .inner-div>div p:nth-child(odd){
+    font-weight: bold;
+    width: 40%;
+    color: #8e0c3a;
+}
+.resumeTen .links i{
+    font-size: 30px;
+    margin-bottom: 5px;
+}

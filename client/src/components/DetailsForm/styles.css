@@ -1,0 +1,459 @@
+input,
+button,
+textarea,
+select{
+    outline: none;
+    border: none;
+}
+input:focus,
+textarea:focus,
+select:focus{
+    outline: none;
+    border: none;
+    border: 1px solid #A99A77;
+}
+.details-form{
+    padding: 30px;
+}
+.details-form .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.details-form .head .text{
+    padding-bottom: 10px;
+}
+.details-form .text h3{
+    margin: 5px 0px;
+}
+.details-form .text p{
+    font-size: 14px;
+    margin: 5px 0;    
+}
+.details-form .text p span{
+    color: #FF0000;
+    font-weight: bold;
+}
+.details-form .head .upload-photo{
+    /* width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 200px;
+}
+/* .details-form .upload-photo input{
+    border: 1px solid #A99A77;
+} */
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  padding: 5px 10px;
+  background-color: #1E1950;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+  transition: 0.5s;
+  font-size: 14px;
+    font-weight: 400;
+}
+.btn-file:hover{
+    background-color: #1E1950;
+    padding: 5px 15px;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+.details-form .upload-photo i{
+    font-size: 40px;
+    background-color: rgb(248, 248, 148);
+    padding: 10px;
+    color: rgb(175, 95, 95);
+    margin: 10px auto;
+}
+.details-form .upload-photo button p{
+    color: #1E1950;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.details-form form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.details-form form>div{
+    margin: 10px 5px;
+    position: relative;
+}
+/* .details-form form .education{} */
+.details-form form>div>div{
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.details-form form>div>div .stars{
+    font-size: 10px;
+    color: #A99A77;
+}
+.details-form form .check{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #A99A77;
+    margin: 5px 0px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.details-form form .check:hover{
+    color: #1E1950;
+}
+.details-form form .check input{
+    margin-right: 5px;
+    max-width: 47%;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.details-form form h4{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #1E1950;
+    background-color: #d4d3e0;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.details-form form>div>.min-div>input,
+.details-form .hobby .other-hobby,
+.details-form select,
+.details-form form>div>input,
+.details-form form .edu-div>input,
+.details-form form .work-div>input{
+    width: 100%;
+    margin: 5px auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 11px 77px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 2px 11px 77px 0px rgba(0,0,0,0.17);
+    box-shadow: 2px 11px 77px 0px rgba(0,0,0,0.17);
+}
+.details-form select{
+    -webkit-appearance: none;
+    min-width: 240px;
+    max-width: 240px;
+}
+.details-form form>div>div{
+    position: relative;
+}
+.details-form form>div .fa-times{
+    color: #1E1950;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: none;
+}
+.details-form .hobbies .fa-times{
+    right: 10px;
+}
+.details-form form>div .fa-times.d-vis{
+    display: block;
+}
+
+.details-form form>div .fa-times:hover{
+    color: #FF0000;
+}
+.details-form form div>span{
+    color: #FF0000;
+    position: absolute;
+}
+.details-form form div span.first{
+    right: 10px;
+    top: 46px;
+}
+.details-form form div>span.second{
+    right: 10px;
+    top: 82px;
+}
+.details-form form div>span.third{
+    right: 10px;
+    top: 116px;
+}
+.details-form form div>span.fourth{
+    right: 10px;
+    top: 152px;
+}
+.details-form form div>span.fifth{
+    right: 10px;
+    top: 186px;
+}
+.details-form form div>span.sixth{
+    right: 10px;
+    top: 222px;
+}
+.details-form form div>span.seventh{
+    right: 10px;
+    top: 256px;
+}
+.details-form form div>span.eighth{
+    right: 10px;
+    top: 152px;
+}
+.details-form form .date input{
+    width: 47%;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 11px 77px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 2px 11px 77px 0px rgba(0,0,0,0.17);
+    box-shadow: 2px 11px 77px 0px rgba(0,0,0,0.17);
+}
+.details-form form>div>button{
+    float: right;
+    margin: 5px 0px;
+    padding: 4px 6px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;    
+    color: #A99A77;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.details-form .disabled{
+    background-color: #cccccc;
+    color: #666666;
+    border-radius: 20px;  
+    cursor: default;  
+
+}
+.details-form .disabled:hover{
+    background-color: #cccccc;
+    color: #666666;
+    padding: 4px 6px;
+
+}
+  input[type="month"]:before {
+    content: attr(placeholder) !important;
+    color: gray;
+    margin-right: 0.5em;
+  }
+  input[type="month"]:focus:before,
+  input[type="month"]:valid:before {
+    content: "";
+  }
+.details-form form>div>button:hover{
+    color: #1E1950;
+    background-color: #d4d3e0;
+    padding: 5px 10px;
+    border-radius: 20px;    
+}
+.details-form form>div>button i{
+    color: black;
+}
+.details-form form .profile-summary textarea{
+    width: 420px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 5px;
+    resize: none;
+    -webkit-box-shadow: 2px 11px 77px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 2px 11px 77px 0px rgba(0,0,0,0.17);
+    box-shadow: 2px 11px 77px 0px rgba(0,0,0,0.17);
+}
+.details-form .basic{
+    min-width: 220px;
+    max-width: 240px;
+}
+.details-form form .education{
+    min-width: 220px;
+    max-width: 800px;
+}
+.details-form form .education .main-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.details-form form .education .main-div .edu-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 240px;
+    width: 190px;
+    max-width: 240px;
+    margin: 0 20px;
+    position: relative;
+    margin-left: 0px;
+}
+.details-form form .main-div textarea{
+    width: 100%;
+    margin: 5px 0px;
+    padding: 7px;
+    border-radius: 10px;
+    resize: none;
+    height: 100px;
+
+}
+
+.main-div .edu-div>span.first{
+    right: 8px;
+    top: 12px;
+}
+.main-div .edu-div>span.second{
+    right: 10px;
+    top: 82px;
+}
+.main-div .edu-div>span.third{
+    right: 10px;
+    top: 82px;
+}
+.main-div .edu-div>span.fourth{
+    right: 10px;
+    top: 118px;
+}
+
+.work-div .min-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.work-div .min-div>span.first{
+    right: 10px;
+    top: 12px;
+}
+.details-form .jobs{
+    min-width: 240px;
+    max-width: 240px;
+}
+.details-form .work-experience{
+    min-width: 240px;
+    max-width: 800px;
+}
+.details-form form .work-experience .main-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.details-form form .work-experience .main-div .work-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 240px;
+    width: 190px;
+    max-width: 240px;
+    margin: 0 20px;
+    margin-left: 0;
+
+}
+.details-form .hobbies{
+    min-width: 240px;
+    max-width: 240px;
+}
+.details-form .social-links{
+    min-width: 240px;
+    max-width: 240px;
+}
+.details-form .professional-skills{
+    min-width: 240px;
+    max-width: 240px;
+}
+.details-form .goals .min-div{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.details-form .skills{
+    min-width: 240px;
+    max-width: 240px;
+}
+.details-form .skills .min-div{
+    display: flex;
+    flex-direction: column;
+}
+.details-form .skills .min-div input[type='range']{
+    box-shadow: none !important;
+    padding: 0px;
+}
+
+.details-form .submmit-div{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.details-form .submmit-div .submit{
+    cursor: pointer;
+    color: white;
+    background-color: #1E1950;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.6s;
+    margin: auto;
+}
+.details-form .submit:hover{
+    /* color: #1E1950; */
+    background-color: #1E1950;
+    padding: 8px 20px;
+
+}
+.work-div>.work-x{
+    right: 30px !important;
+}
+
+/* Max Screen Size = 850px */
+@media only screen and (max-width: 850px) {
+    .details-form form{
+        justify-content: space-around;
+    }
+    .details-form .head{
+        text-align: center;
+    }
+    .details-form .upload-photo{
+        margin: auto;
+    }
+    .details-form form>div{
+        min-width: 210px;
+        max-width: 250px;
+    }
+    .details-form form textarea{
+        max-width: 250px;
+        min-height: 200px;
+    }
+    .upload-photo{
+        display: none;
+    }
+    .details-form .main-div{
+        flex-direction: column;
+    }
+    .details-form .main-div .main-div{
+        margin: 10px auto;
+    }
+    .details-form form .education .main-div .edu-div{
+        margin: 0px;
+    }
+}

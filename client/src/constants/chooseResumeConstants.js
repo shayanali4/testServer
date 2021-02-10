@@ -1,0 +1,1 @@
+export const CHOOSE_RESUME = 'CHOOSE_RESUME';

@@ -1,0 +1,357 @@
+
+.resume14{
+
+  
+    background-color:white;
+    
+    padding: 10px 10px;
+    margin: 20px auto;}
+    
+    
+.resume14 .main{
+    min-width: 1050px;
+    max-width: 1050px;
+    max-height: 1250px;
+    min-height: 1250px;
+    
+
+}
+
+.resume14 .start{
+    display: flex;
+    justify-content: flex-start;
+    background-color:    #131313  ;
+    padding: 10px;
+}
+.resume14 .main  .start .left{
+  width: 30%;
+  color: #999999;
+  padding: 10px 5px;
+  margin-right: 10px;
+}
+
+
+.resume14 .main .start .right{
+    width: 70%;
+    color: #999999;
+
+margin-left: 10px;
+padding: 30px 10px;
+  }
+
+  .resume14 .main  .start .left .container1{
+      background-color:#1F1F1F ;
+      padding: 20px 10px;
+      border-radius: 8px;
+  
+      color:#CBCBCB ;
+      max-width: 300px;
+      overflow-wrap: break-word;
+  }
+  
+
+  .resume14 .main  .start .left .container1 .container11{
+      padding: 10px;
+  text-align: center;
+  color: #999999;
+  
+  }
+  .resume14 .main  .start .left .container2 .container11{
+    padding: 10px;
+text-align: center;
+color: #999999;
+
+}
+.resume14 .main  .start .left .container2{
+    margin-top: 10px;
+    max-width: 300px;
+    overflow-wrap: break-word;
+
+}
+.resume14 .main  .start .left .container2 h4{
+    margin-top: 4px;
+}
+.resume14 .main  .start .left .container2 .info  {
+margin-top: 15px;}
+.resume14 .main  .start .left .container2 .info p {
+    font-size: 10px;
+}
+  .resume14 .main  .start .left .container1 .container11 h3{
+      color: white;
+      margin-top: 10px;
+      margin-bottom: 8px
+  }
+
+  .resume14 .main  .start .left .container1 .container11 h3{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 8px
+}
+
+
+.resume14 .main  .start .left .container1 .container11 h3{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 8px
+}
+.resume14 .main  .start .left .container1 .container11 h4{
+    color: #FEE32D;
+    margin-top: 10px;
+    margin-bottom: 15px
+    
+}
+.resume14 .main  .start .left .container1 .container11 hr{
+    border-top: 1px solid ;
+    width: 30%;
+   color:  #999999;
+margin-left: 90px;
+
+margin-bottom: 10px;
+
+}
+
+
+.resume14 .main  .start .left .container2{
+    background-color:#1F1F1F ;
+    padding: 20px 10px;
+    border-radius: 8px;
+
+}
+.resume14 .main  .start .left .container1 h4{
+    color:#CBCBCB ;
+
+}
+.resume14 .main  .start .left .container3 h4{
+    color:#CBCBCB ;
+
+}
+.resume14 .main  .start .left .container4 h4{
+    color:#CBCBCB ;
+    margin-bottom: 5px;
+
+}
+.resume14 .main  .start .left .container4 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.resume14 .main  .start .left .container4 div p{
+   padding: 10px;
+   font-size: 13px;
+   max-width: 140px;
+}
+.resume14 .main  .start .left .container4 div p i{
+    padding: 10px;
+    font-size: 20px;
+    color: #FEE32D;
+ }
+
+
+
+.resume14 .main  .start .left .container2 h4{
+    color:#CBCBCB ;
+
+}
+
+
+
+  
+
+.resume14 .main  .start .left .container3{
+    background-color:#1F1F1F ;
+    padding: 20px 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+
+    color:#CBCBCB ;
+    max-width: 300px;
+}
+
+
+.resume14   .main .start .left .container3 h6{
+    margin-top: 10px;
+}
+
+.resume14   .main .start .left .container3 .p .dot{
+    margin-top: 10px;
+       height: 15px;
+       width: 15px;
+       background-color: #FFE32C;
+       border-radius: 50%;
+       display: inline-block;
+       margin-right: 5px;
+     
+
+
+}
+
+.resume14 .main  .start .left .container4{
+    background-color:#1F1F1F ;
+    padding: 20px 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    max-width: 300px;
+
+    color:#CBCBCB ;
+}
+.resume14 .main  .start .right .container5 .summary h5{
+
+
+    max-width: 630px;
+    overflow-wrap: break-word;
+}
+
+
+
+.resume14 .main  .start .right .container5 .summary{
+    color:#CBCBCB ;
+
+    margin-top: 14px;
+}
+
+.resume14 .main  .start .right .container5{
+    background-color:#1F1F1F ;
+    margin-top: -17px;
+    padding: 20px 10px;
+    border-radius: 8px;
+
+    color:#CBCBCB ;
+}
+.resume14 .main  .start .right .container6 .right1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.resume14 .main  .start .right .container6 .right1  .right11{
+ width: 200px;
+ text-align: center;
+ margin-top: 20px;
+}
+.resume14 .main  .start .right .container6 .right1  .right11 h5{
+    background-color: #FEE32D; 
+    color: #1F1F1F;  margin-right: 10px; 
+    padding: 7px 5px;
+    text-align: center;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-top: -17px;
+             }
+             .resume14 .main  .start .right .container6 .right1  .right22 h5{
+               color: #CBCBCB;
+               max-width: 430px;
+overflow-wrap: break-word;
+                         }
+                         .resume14 .main  .start .right .container6 .right1  .right22 h6{
+color:#999999 ;
+font-size: 13px;
+max-width: 430px;
+overflow-wrap: break-word;
+}
+.resume14 .main  .start .right .container6{
+    background-color:#1F1F1F ;
+    margin-top: -17px;
+    padding: 20px 10px;
+    border-radius: 8px;
+
+    color:#CBCBCB ;
+    margin-top: 10px;
+}
+.resume14 .main  .start .right .container7 .flex {
+    display: flex;
+    justify-content: flex-start;
+    
+  
+    
+}
+.resume14 .main  .start .right .container7 div .skills h5 {
+  
+    max-width: 280px;
+    overflow-wrap: break-word;
+}
+.resume14 .main  .start .right .container7 div .skills {
+    margin-bottom: 10px;
+    width: 50%;
+    
+}
+.resume14 .main  .start .right .container7 .flex .skills  h4{
+    margin-bottom: 10px;
+    
+}
+.resume14 .main  .start .right .container7 .flex .facts  h4{
+    margin-bottom: 10px;
+    
+}
+.resume14 .main  .start .right .container7 .flex .facts  div{
+    margin-top: 10px;
+    
+}
+.resume14 .main  .start .right .container7 .flex .facts  div h6{
+    color:#999999 ;
+    margin-top: 5px;
+    max-width: 280px;
+    overflow-wrap: break-word;
+    
+}
+.resume14 .main  .start .right .container7 div .facts {
+    width: 50%;
+    
+}
+
+
+
+.resume14   progress {
+    color: #FFE32C;
+    width: 130pt;
+    height: 5px;
+    margin-bottom: 12px;
+}
+
+
+.resume14   progress::-moz-progress-bar {
+    background: #FFE32C;
+    border: solid 2pt #FFE32C;
+    width: 130pt;
+}
+
+.resume14  progress::-webkit-progress-value {
+    background: #FFE32C;
+    border: solid 2pt #FFE32C;
+    width: 100pt;
+}
+
+.resume14   progress[aria-valuenow]:before {
+    background :#FFE32C;
+    border: solid 1pt #FFE32C;
+    width: 100pt;
+}
+
+
+.resume14    progress {
+    -webkit-appearance: none;
+    appearance: none;
+} 
+
+.resume14 .main  .start .right .container7{
+    background-color:#1F1F1F ;
+    margin-top: -17px;
+    padding: 20px 10px;
+    border-radius: 8px;
+
+    color:#CBCBCB ;
+    margin-top: 10px;
+}
+
+
+
+
+
+.resume14 .main  .start .right .container7 .flex .skills div .sc{
+    max-width: 280px;
+    overflow-wrap: break-word;
+
+margin-top: 10px;
+
+
+}

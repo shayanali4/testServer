@@ -1,0 +1,12 @@
+export const PROFILE_PHOTO = 'PROFILE_PHOTO';
+export const PERSONAL_INFO = 'PERSONAL_INFO';
+export const GOALS_INFO = 'GOALS_INFO';
+export const JOB_INFO = 'JOB_INFO';
+export const EDUCATION_INFO = 'EDUCATION_INFO';
+export const SKILLS_INFO = 'SKILLS_INFO';
+export const SOCIAL_LINKS_INFO = 'SOCIAL_LINKS_INFO';
+export const LANGUAGES_INFO = 'LANGUAGES_INFO';
+export const FACTS_INFO = 'FACTS_INFO';
+export const WORK_EXPERIENCE_INFO = 'WORK_EXPERIENCE_INFO';
+export const HOBBIES_INFO = 'HOBBIES_INFO';
+export const PROFILE_SUMMARY = 'PROFILE_SUMMARY';

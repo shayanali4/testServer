@@ -1,0 +1,557 @@
+
+.resume9{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color:white
+}
+
+.resume9 .main{
+    
+    
+    
+    min-width: 1050px;
+    max-width: 1050px;
+    max-height: 1250px;
+    min-height: 1250px;
+    display: flex;
+}
+
+.resume9 .main .left{
+    width: 30%;
+    background-color: white;
+    padding: 0px;
+    min-width: 250px;
+}.resume9 .main .right{
+    width: 70%;
+    padding-left: 20px;
+    
+}
+.resume9 .main .left .details .name{
+    font-size: 34px;
+    padding-left: 30px;
+    margin-top: 0px;
+    font-weight: lighter;
+    padding-right: 30px;
+    max-width: 338px;
+    overflow-wrap: break-word;
+}
+.resume9 .main .left .details .passion{
+    max-width: 300px;
+    overflow-wrap: break-word;
+        margin-top: 0px;
+        padding: 0px 35px;
+        font-size: 13px;
+        /* text-align: center; */
+        font-weight: bold;
+        color: #d28568;
+}
+.resume9 .main .left  .info .first{
+
+background-color: #d28568;
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 8px;
+color: white;
+}
+
+
+
+.resume9 .main .left  .info .first .first1{
+
+    width: 50%;
+    max-width: 30px;
+    overflow-wrap: break-word;
+    
+    
+    }
+    .resume9 .main .left  .info .first .first2{
+
+        width: 50%;
+        max-width: 160px;
+        overflow-wrap: break-word;
+        }
+
+
+    .resume9 .main .left  .info{
+        margin-top: 50px;
+    }
+    .resume9 .main .left  .info .first div{
+        width: 50%;
+        overflow-wrap: break-word;
+    }
+
+
+    .resume9 .main .left  .info .second{
+
+        background-color: #da997f;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 8px;
+        color: white;
+        }
+      
+
+            .resume9 .main .left  .info .second .second1{
+
+                width: 50%;
+                max-width: 30px;
+                overflow-wrap: break-word;
+                
+                
+                }
+                .resume9 .main .left  .info .second .second2{
+            
+                    width: 50%;
+                    max-width: 160px;
+                    overflow-wrap: break-word;
+                    }
+            
+
+
+
+
+            .resume9 .main .left  .info .third{
+
+                background-color: #939598;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 8px;
+                color: white;
+                overflow-wrap: break-word;
+                }
+                .resume9 .main .left  .info .third p{
+                
+                   font-size: 15px;
+                   color: white;
+                   max-width: 130px;
+                   overflow-wrap: break-word;
+                   
+                    }
+
+
+
+
+                    .resume9 .main .left  .info .third .third1{
+
+                        width: 50%;
+                        max-width: 30px; overflow-wrap: break-word;
+                        
+                        
+                        }
+                        .resume9 .main .left  .info .third .third2{
+                    
+                            width: 50%;
+                            max-width: 160px;
+                            overflow-wrap: break-word;
+                            }
+                    
+    
+
+
+
+                    .resume9 .main .left .lang{
+                        text-align: center;
+                        overflow-wrap: break-word;
+                        max-width: 400px;
+                    }
+
+
+                    .resume9 .main  .left .lang  .progress{
+
+
+                        margin-left: 8px;
+                       }
+
+                       .resume9 .main  .left .lang  .progress p{
+                           
+                        margin-bottom: 0px;
+                        font-size: 14px;
+                        font-weight: lighter;
+                        overflow-wrap: break-word;
+                        max-width: 260px;
+                        padding-left: 50px;
+                        padding-right: 20px;
+                        color: #939598;
+                        font-weight: 700;
+                        
+                       }
+
+                       .resume9 .main .right .education .sociallinks .social1{
+                        display: flex;
+                        margin-top: 10px;
+                        
+                    }
+                    .resume9 .main .right .education .sociallinks .social1 h3{
+letter-spacing: 0.1rem;                        
+                    }
+                    .resume9 .main .right .education .sociallinks .social1 .sociallink{
+padding: 2px 10px;     
+color:#da997f;                
+                    }
+
+
+                       .resume9 .main  .left .lang  h6{
+                        margin-top: 16px;
+                        border-top: 1px solid #939598;
+                        width: 50%;
+                        text-align: center;
+                        margin-left: 90px;
+                        margin-top: 16px;
+                        margin-bottom: 16px;
+                       }
+                       .resume9 .main  .left .lang  h3{
+                        margin-bottom: 4px;
+                        margin-left: 0px;
+                        max-width: 300px;
+                        padding: 0px 68px;
+                       }
+
+
+                    
+                       .resume9 progress {
+                        margin-bottom: 10px;
+                        color: #d28568;
+                        border: 0px solid #d28568;
+                        width: 100pt;
+                        height: 6px;
+                        background-color: #d28568;
+                        margin-top: 10px;}
+                    
+                    /* Firefox */
+                    .resume9  progress::-moz-progress-bar {
+                        background: #d28568;
+                        border: solid 1pt  #d28568;
+                        width: 100pt;
+                        height: 5px;
+                    }
+                    
+                    /* Chrome */
+                   .resume9 progress::-webkit-progress-value {
+                        background:  #d28568;
+                        border: solid 1pt #d28568;
+                        width: 100pt;
+                        height: 6px;
+                    }
+                    
+                    /* Polyfill */
+                    .resume9  progress[aria-valuenow]:before {
+                        background:#d28568;
+                        border: solid 0pt#d28568;
+                        width: 100pt;
+                        height: 6px;
+                    }
+                    
+                    
+.resume809  progress {
+ -webkit-appearance: none;
+ appearance: none;
+                    }
+
+.resume9 .main  .left .lang .ref{
+    overflow-wrap: break-word;
+ padding: 0px 50px;
+                    }
+.resume9 .main  .left .lang .ref .design{
+font-size: 12px;  
+padding: 0px 20px;   
+font-weight: 700; 
+margin-top: 2px;     
+overflow-wrap: break-word; 
+margin-bottom: 11px; 
+    
+}
+
+.resume9 .main  .left .lang .ref .phone{
+    overflow-wrap: break-word;
+    font-size: 12px;
+    max-width: 212px;
+
+    }
+    .resume9 .main  .left .lang .ref .email{
+        font-size: 12px;
+        overflow-wrap: break-word;
+        padding: 0px 40px; 
+        margin-top: 0px;
+        max-width: 212px;
+              
+         }
+
+
+         .resume9 .main  .left .lang .hobbies{
+             display: flex;
+             flex-wrap: wrap;
+             text-align: center;
+             padding: -2px 20px;
+             margin-left: 56px;
+         }
+         .resume9 .main  .left .lang .hobbies .value{
+             max-width: 42px;
+         }
+         .resume9 .main  .left .lang .hobbies div i{
+             font-size: 25px;
+         }
+         .resume9 .main  .left .lang .hobbies div{
+padding: 18px;
+    font-size: 43px;
+        }
+        .resume9 .main  .left .lang .hobbies div img{
+            width: 30px;
+            height: 30px;
+        }
+        .resume9 .main  .left .lang .hobbiesmain{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+       .resume9 .main .right .summary{
+           padding: 0px 20px;
+       }
+       .resume9 .main .right .summary h3{
+
+     
+        letter-spacing: 0.1rem; }
+
+
+
+   .resume9 .main .right .summary h6{
+
+     
+       border-top: 1px solid black;}
+       .resume9 .main .right .summary .summary1{
+
+        font-size: 13px;
+        margin-top: 10px;
+        text-align: justify;
+        max-width: 100%px;
+        overflow-wrap: break-word;
+    }
+
+
+    .resume9 .main .right .exp{
+        padding: 0px 19px;
+        margin-top: 10px;
+}
+       
+    
+    .resume9 .main .right .exp h3{
+
+  
+     letter-spacing: 0.1rem; }
+
+
+
+.resume9 .main .right .exp h6{
+
+  
+    border-top: 1px solid black;}
+    .resume9 .main .right .exp .exp1 .work{
+
+        margin-top: 11px;
+        max-width: 500px;
+        overflow-wrap: break-word;  
+        font-size: 11px;    }
+.resume9 .main .right .exp h6{
+
+  
+    border-top: 1px solid black;}
+    .resume9 .main .right .exp h5{
+
+  
+color: #d28568; 
+  }
+  .resume9 .main .right .exp .exp1 {
+
+  
+    margin-bottom: 40px;   }
+    
+    .resume9 .main .right .exp .exp1 h5{
+        margin-top: 11px;
+        max-width: 500px;
+    overflow-wrap: break-word;    }
+
+
+
+
+
+
+
+    .resume9 .main .right .education{
+        padding: 0px 20px;
+        margin-top: 50px;
+    }
+    .resume9 .main .right .education h3{
+
+  
+     letter-spacing: 0.1rem; }
+
+
+
+.resume9 .main .right .education h6{
+
+  
+    border-top: 1px solid black;}
+
+    .resume9 .main .facts h6 {
+
+  
+            border-top: 1px solid black;}
+            .resume9 .main .facts .fact{
+                margin-top: 20px;
+            }
+            .resume9 .main .facts {
+                margin-left: 18px;
+                margin-right: 18px;  
+                }
+
+                .resume9 .main .facts .valuefact{
+                    color:#da997f;
+                    overflow-wrap: break-word;
+    color: #da997f;
+    max-width: 100%;
+                }
+                .resume9 .main .facts .fact{
+                    margin-top: 20px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                    font-size: 13px;
+                }
+    
+
+    .resume9 .main .right .education .exp1 h5{
+        color: #d28568;
+        color: #d28568;
+        margin-top: 10px;
+        max-width: 500px;
+        overflow-wrap: break-word;
+    }
+
+
+    .resume9 .main .right .education .exp1 .education1{
+        color: black;
+        font-size: 12px;
+        font-weight: bolder;
+        margin-top: 10px;
+        max-width: 500px;
+        overflow-wrap: break-word; }
+
+.resume9 .main .right .education .exp1 .work{
+
+  max-width: 1200px;
+    margin-top: 11px;
+    font-size: 11px;
+    overflow-wrap: break-word;
+}   
+     .resume9 .main .right .education .exp1{
+         margin-bottom: 40px;max-width: 500px; 
+     }
+
+
+
+
+
+     .resume9 .main .right .skills{
+        margin-bottom: 24px;
+        padding: 0px 0px;
+        margin-top: 50px;
+    }
+    .resume9 .main .right .skills h3{
+
+  
+     letter-spacing: 0.1rem; }
+
+
+
+.resume9 .main .right .skills h6{
+
+    margin-bottom: 5px;
+    border-top: 1px solid black;}
+
+
+    .resume9 .main .right .skills .exp1 h5{
+        color: #d28568;
+    } .resume9 .main .right .skills .skillsall .progress{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+
+
+
+}
+.resume9 .main .right .skills .skillsall .progress div{
+    margin-right: 40px;
+    margin-top: -10px;
+    
+    
+    
+    }
+    .resume9 .main .right .skills .skillsall .progress div progress{
+        
+        margin-bottom: 0px;
+        
+        
+        
+        }
+        .resume9 .main .right .skills .skillsall .progress div p{
+        
+            margin-top: 11px;
+            margin-bottom: 0px;
+            max-width: 130px;
+            overflow-wrap: break-word;
+        
+            
+            
+            
+            }
+
+
+
+
+
+
+
+    .resume9  .main .right progress {
+        color:#d28568; 
+        border: 0px solid  #d28568;
+        width: 120pt;
+        height: 6px;
+        background-color: #d28568;
+    }
+    
+    /* Firefox */
+    .resume9 .main .right progress::-moz-progress-bar {
+        background: #d28568;
+        border: solid 1pt  #d28568;
+        width: 130pt;
+        height: 5px;
+    }
+    
+    /* Chrome */
+  .resume9  progress::-webkit-progress-value {
+        background:  #d28568;
+        border: solid 1pt #d28568;
+        width: 130pt;
+        height: 6px;
+    }
+    
+    /* Polyfill */
+    .resume9 .mian .right .progresss  progress[aria-valuenow]:before {
+        background:#d28568;
+        border: solid 0pt#d28568;
+        width: 130pt;
+        height: 6px;
+    }
+    
+    
+    .resume9 .main .right .progresss   progress {
+-webkit-appearance: none;
+appearance: none;
+    }
+   
+   
+

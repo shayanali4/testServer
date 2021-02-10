@@ -1,0 +1,707 @@
+
+
+.resume4{
+
+    min-width: 1020px;
+    max-width: 1020px;
+    max-height: 1250px;
+    min-height: 1250px;
+background-color:white;
+
+padding: 30px 30px;
+}
+
+.resume4 .main .plane{
+    color: purple;
+    background-color: 
+    #98559d;
+    height: 60px;
+}
+
+.resume4 .main .profilepic img{
+width: 110px;
+height: 110px;
+border-radius: 50%;
+position: relative;
+top: -50px;
+
+}
+.resume4 .main .profilepic{
+    text-align: center;
+    height:40px;
+    
+}
+.resume4 .main .nandf{
+   text-align: center;
+   margin-top: 16px;
+
+}
+.resume4 .main .nandf h1{
+   font-weight: 600;
+    
+ }
+.resume4 .main .nandf h5{
+    margin: 0px;}
+.resume4 .Aboutme{
+    background-color: #F6F6F6;  margin-top: 50px;
+    display: flex;
+}
+.resume4 .Aboutme .first{
+    width: 50%;
+    margin: 3px 15px;
+    padding-top:10px ;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    font-size: 13px;
+    text-align: justify;
+}
+.resume4 .Aboutme .first h4{
+    margin-top: 1px;
+    margin-bottom: 8px;
+    max-width: 198px;
+}
+.resume4 .Aboutme .first p{
+    overflow-wrap: break-word;
+    margin-top: -4px;
+    max-width: 400px;
+}
+.resume4 .Aboutme .second{
+    width: 25%;
+    background-color: #ececee;;
+    font-size: 10px;
+    
+   
+
+
+  
+}
+.resume4 .Aboutme .second img{
+   width: 17px;
+   height: 17px;
+
+  
+}
+.resume4 .Aboutme .third img{
+    width: 17px;
+    height: 17px;
+ 
+   
+ }
+ .resume4 .Aboutme .second  div  {
+    list-style: none;
+    display: flex;
+    padding: 1px;
+    margin: 10px 10px;
+
+  
+}
+
+.resume4 .Aboutme .third  div  {
+    list-style: none;
+    display: flex;
+    padding: 1px;
+    margin: 10px 10px;
+
+  
+}
+.resume4 .Aboutme .second  div  li {
+    overflow-wrap: break-word;
+    margin-right: 10px;
+    max-width: 200px;
+}
+  
+
+
+
+.resume4 .Aboutme .third  div  .left {
+    margin-left: 5px;
+}
+
+
+.resume4 .Aboutme .second  div  .left {
+    margin-left: 5px;
+}
+.resume4 .Aboutme .third  div  li {
+    margin-right: 10px;
+    max-width: 200px;
+    overflow-wrap: break-word;
+   
+   }
+   .resume4 .Aboutme .third  div i{
+       font-size: 14px;
+       margin-right: 10px;
+   }
+
+
+
+
+   .resume4 .Aboutme .third{
+    width: 25%;
+   
+    font-size: 10px;
+    background-color: #F6F6F6
+    
+}
+
+.resume4 .main .experience{
+    background-color: white;
+    margin-top: 30px;
+
+}
+.resume4 .main .experience h3{
+    background-color: white;
+    padding: 8px;
+    margin-top: 0px;
+
+}
+.resume4 .main .companynames{
+    
+    display: flex;
+    margin-left: 0px;
+    margin-top: 1px;
+    background-color: #F6F6F6;
+
+    
+}
+.resume4 .main .companynames .first{
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-top: 3px solid #98559d;
+    background-color: #F6F6F6;
+}
+
+.resume4 .main .companynames .first .subfirst{
+ margin: 2px 40px;
+}
+ .resume4 .main .companynames .second .subsecond{
+    margin: 23px 20px;   }
+   .resume4 .main .companynames .third .subthird{
+    margin: 2px 20px;
+   }
+
+
+ .resume4 .main .companynames .third p{
+    margin-bottom: 15px;
+    max-width: 250px;
+    margin-top: 4px;
+    font-size: 12px;
+
+
+    
+}
+
+ .resume4 .main .companynames .second p{
+    margin-bottom: 15px;
+    max-width: 250px;
+    margin-top: 4px;
+    font-size: 12px;
+}
+.resume4 .main .companynames  h6{
+    font-size: 14px;
+    font-style: bold;
+    /* font-weight: 900; */
+    margin-top: 18px;
+    max-width: 250px;
+    margin-bottom: 6px;
+    max-width: 200px;
+    overflow-wrap: break-word;
+}
+    
+
+
+
+.resume4 .main .companynames .first p{
+    overflow-wrap: break-word;
+    s: 5px;
+    font-size: 12px;
+    margin-bottom: 12px;
+    max-width: 200px;
+
+       
+}
+.resume4 .main .companynames .first .subfirst p span{
+ border-left: 1px solid  
+ #98559d;
+ margin-left: 4px;
+padding: 0px 4px;
+font-size: 12px;
+
+
+
+       
+}
+.resume4 .main .companynames .second .subsecond p span{
+    border-left: 1px solid #98559d;
+    margin-left: 7px;
+   
+   padding: 0px 4px;
+   font-size: 12px;
+
+   
+
+
+   
+   
+          
+   }
+
+   .resume4 .main .companynames .third .subthird p span{
+    border-left: 1px solid#98559d;
+    margin-left: 7px;
+   padding: 0px 4px;
+   color:#98559d;
+   font-size: 12px;
+
+   
+   
+          
+   }
+   
+
+
+
+
+
+   .resume4 .main .companynames .destination {
+    overflow-wrap: break-word;
+    font-size: 13px;
+    margin-right: 10 px;
+    max-width: 200px;
+
+
+   
+   
+          
+   }
+   .resume4 .main .last .third  .width12345 .width i{
+       font-size: 20px;
+   }
+   .resume4 .main .last .third  .width12345  {
+       display: flex;
+       justify-content: flex-start;
+       flex-wrap: wrap;
+   }
+   .resume4 .main .last{
+padding-top: 20px;
+display: flex;
+background-color: #F6F6F6;
+
+
+   }
+
+
+   .resume4 .main .last .first{
+       margin-top: 5px;
+       border: 1px solid #98559d;
+       width: 30%;
+       margin-right: 20px;
+       background-color: white;
+       height: 100%;
+     
+      
+   }
+   .resume4 .main .last .second{
+    width: 38%;
+    margin-right: 20px;
+    margin-top: 4px;
+    
+}
+.resume4 .main .last .third div{
+    background-color: white;
+    padding-left: 38px;
+    margin-bottom: 20px;
+}
+
+
+.resume4 .main .last .third div .all{
+    max-width: 150px;
+    overflow-wrap: break-word;
+}
+
+
+.resume4 .main .last .third div .progress123 progress {
+    color: #98559d;;
+    border: solid 0pt#98559d;
+    width: 100pt;
+    height: 5pt;
+    }
+.resume4 .main .last .third{
+  
+    width: 25%;
+    margin-right: 20px;
+    margin-top: 4px;
+    background-color: white;
+  
+
+}
+.resume4 .main .last .four{
+  
+    width: 7%;
+    margin-top: 4px;
+}
+
+
+.resume4  .main .last .first h2{
+        background-color: #98559d;
+        color: white;
+        text-align: center;
+       
+        margin-top: 0px;
+        padding: 10px;
+        
+             
+       }
+       .resume4  .main .last .second h2{
+       
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    padding: 1px -4px;
+    max-width: 400px;
+
+        
+             
+       }
+       .resume4  .main .last .first .degree2{
+        margin-bottom: 10px;
+        margin-top: 0px;
+        font-size: 14px;
+        padding: 0px 30px;
+        font-weight: bold;
+        margin-top: 10px;
+        max-width: 300px;
+        overflow-wrap: break-word;
+        
+             
+       }
+       .resume4  .main .last .first .degree{
+        margin-bottom: 10px;
+        margin-top: 0px;
+        font-size: 14px;
+        padding: 0px 30px;
+        margin-top: 10px;
+        max-width: 300px;
+        overflow-wrap: break-word;
+        
+             
+       }
+       .resume4  .main .last .first .degree1{
+        margin-bottom: 20px;
+        margin-top: 0px;
+        font-size: 14px;
+        padding: 0px 30px;
+        margin-top: 10px;
+        max-width: 300px;
+        overflow-wrap: break-word;
+        
+             
+       }
+       .resume4   .main .last .first .university{
+        text-align: center;
+        margin-top: 0px;
+        text-align: center;
+        font-size: 13px;
+        padding: 12px;
+        padding: 0px 15px;
+        max-width: 306px;
+    }
+       .resume4  .main .last .first .address{
+        font-size: 12px;
+        padding: 5px 61px;
+        border-radius: 10px;
+        margin: 5px;
+        text-align: center;
+        /* background-color: #98559d; */
+        /* color: white; */
+        max-width: 301px;
+        
+        
+             
+       }
+       .resume4 .last p span{
+        border-left: 1px solid #98559d;
+        margin-left: 7px;
+        color: #98559d;
+       
+       padding: 0px 4px;
+       font-size: 12px;
+       font-weight: bold;
+
+       }
+       .resume4  .main .last .first .details{
+           margin-bottom: 40px;
+       }
+       .resume4  .main .last .first .location{
+      
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 0px;
+        text-align: center;
+        font-size: 14px;
+        padding: 0px 22px;
+        font-weight: bold;
+        margin-top: 19px;
+        margin-right: 28px;
+        margin-left: 47px;  
+           }
+       
+
+           .resume4    .main .last .first .training  h2{
+            max-width: 303px;
+            background-color: white;
+            color: #98559d;
+            margin-top: 5px;
+            margin-bottom: 0px;
+           }
+           .resume4 .main .last .first .training  h5{
+           text-align: center;
+           margin-top: 0px;
+        }
+        .resume4 .main .last .first .training .allskills{
+           list-style: none;
+           text-align: center;
+         
+
+
+        }
+
+
+
+        .resume4  .main .last .first .training .allskills li{
+            padding: 8px;
+            border: 1px solid gray;
+            border-radius: 50px;
+            margin: 10px;
+            font-size: 11px;
+            max-width: 276px
+           
+ 
+ 
+         }
+
+
+         .resume4   .main .last .second .languages {
+            margin-top: 0px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+             
+            margin-top: 0px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+         }
+
+         
+       
+
+       
+         .resume4  .main .last .second .languages .stars {
+            font-size: 12px;
+            border-radius: 10px;
+            
+            color: lightgray;
+            padding: 10px;
+            margin:1px ;
+            text-align: center;
+            
+        }
+
+          
+        .resume4    .main .last .second .languages  div .lang {
+            font-size: 12px;
+            border-radius: 10px;
+        color: black;
+            padding: 5px;
+            margin:5px;
+            text-align: center;
+            background-color:#f9f9f9
+       
+        
+        }
+        .resume4     .main .last .second .languages  div .lang1 {
+            font-size: 12px;
+            padding: 5px;
+            border-radius: 10px;
+            margin:5px;
+            text-align: center;
+            background-color: #98559d;
+            color: white;
+
+       
+            
+        }
+
+        .resume4       .main .last .second .references {
+           background-color: white;
+       
+     
+            
+        }
+        .resume4   .main .last .second .references h2 {
+            margin-left: 10px;
+            margin-bottom: 26px;
+        
+      
+             
+         }
+         .resume4       .main .last .second .references .referencepersons h4{
+            max-width: 500px;
+        overflow-wrap: break-word;  font-size: 14px;
+        font-weight: 700;
+            }
+        .resume4       .main .last .second .references .referencepersons h5{
+            max-width: 500px;
+        overflow-wrap: break-word; 
+    font-size: 11px; 
+margin-bottom: 10px;       }
+
+         .resume4       .main .last .second .references .referencepersons{
+        
+             font-size: 11px;
+             flex-wrap: wrap;
+             padding: 6px;
+             
+         }
+         .resume4    .main .last .second .references .referencepersons .email{
+            margin-left: '1px solid green'
+         }
+     .resume4    .main .last .second .references .referencepersons p img{
+             width: 20px;
+             height: 20px;
+         }
+         
+          .resume4 .main .last .second .thankyou{
+            text-align: center;
+            background-color: white;
+            height: 100%;
+            font-size: 12px;
+            padding: 10px;
+            
+        }
+        .resume4 .main .last .second .thankyou .goals1 h5{
+            max-width: 360px;
+            overflow-wrap: break-word;
+        }
+        
+
+      .resume4  .main .last .second .thankyou h4{
+        margin-top: 10px;
+        padding: 10px;
+        max-width: 366px;
+       
+        }
+        .main .last .second .thankyou .lastname1{
+            margin-top: 60px;
+            color: #98559d;
+            max-width: 349px;       
+             }
+    
+        
+         
+         
+             .resume4   .main .last .third .skillsall p{
+                max-width: 242px;
+                margin-top: 19px;
+                font-weight: 700;
+             }   
+     .resume4   .main .last .third .skillsall {
+        text-align: center;
+        background-color: white;
+        font-size: 14px;
+        padding: 5px 2px;
+        height: 70;
+        font-style: bold;
+             }
+     .resume4        .main .last .third h2{
+        background-color: white;
+        color: black;
+        text-align: center;
+        margin-top: 0px;
+        padding: 0px 15px;
+        margin-bottom: 10px;
+                
+                     
+               }
+           .resume4    .main .last .third .creativeskills p{   
+            height: 100%; 
+            text-align: justify;
+            padding: 0px 22px;
+            font-size: 12px;
+               }
+
+
+            .resume4   .main .last .four img {
+                width: 30px;
+                height: 30px;
+                color: white;
+               
+                
+            }
+            
+      .resume4      .main .last .four .imageofsetting {
+                width: 100%px;
+                height: 100%px;
+                color: white;
+                background-color: 
+                #98559d;
+               text-align: center;
+                
+            }
+          .resume4  .main .last .four .imageofset {
+             
+            color: white;
+            background-color: white;
+            width: 100%;
+            text-align: center;
+            padding: 12px 0px;
+            text-align: center;
+           
+               
+            }
+
+
+
+        
+            .resume4 progress {
+              color:  #98559d;
+                /* border: solid 1pt#363636; */
+                width: 100pt;
+                height: 5pt;
+                }
+                
+                /* Firefox */
+                .resume4  progress::-moz-progress-bar {
+                    background:#98559d;;;
+                    border: solid 1pt #98559d;
+                    width: 100pt;
+                    height: 4px;
+                }
+                
+                /* Chrome */
+             .resume4   progress::-webkit-progress-value {
+                    background:#98559d;
+                    border: solid 1pt #98559d;
+                    width: 100pt;
+                    height: 4px;
+                }
+                
+                /* Polyfill */
+                .resume4   progress[aria-valuenow]:before {
+                    background :#98559d;
+                    border: solid 0pt#98559d;
+                    width: 100pt;
+                    height: 2px;
+                }
+
+       
+
+
+
+
+

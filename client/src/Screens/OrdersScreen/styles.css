@@ -1,0 +1,90 @@
+/* .orders-screen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orders-screen>div{
+    width: 80%;
+    height: 80%;
+    background-color: #A99A77;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #1E1950;
+}
+.orders-screen .head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.orders-screen .head>div{
+    width: 15%;
+}
+.orders-screen .body{}
+.orders-screen .body .row{}
+.orders-screen .body .row>div{} */
+
+.orders-screen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orders-screen table{
+    width: 95%;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.orders-screen table .head{
+    background-color: #1E1950;
+    color: #A99A77;
+    width: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 20px 10px;
+    
+}
+.orders-screen table .head td{
+    width: 15%;   
+    border: 2px solid;
+    padding: 2px 5px;
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start; */
+}
+.orders-screen table tr{
+    background-color: #A99A77;
+    color: #1E1950;
+    width: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    font-size: 14px;
+    padding: 20px 10px;
+
+}
+.orders-screen table tr td{
+    width: 15%;   
+    border: 2px solid;
+    padding: 2px 5px;
+
+}
+.orders-screen table tr td:nth-child(3){
+    width: 250px;
+}
+.orders-screen table tr td:nth-child(5){
+    width: 150px;
+}
+.orders-screen table tr td:nth-child(6){
+    width: 100px;
+}

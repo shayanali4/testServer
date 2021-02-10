@@ -1,0 +1,240 @@
+body{
+    background-color: white;
+}
+.resumeEleven{
+    width: 100%;
+    margin: 20px auto;
+    background-color: white !important;
+    display: flex;
+    align-items: center;
+    padding: 15px;  
+}
+.resumeEleven .content{
+    min-width: 1050px;
+    max-width: 1050px;
+    min-height: 1250px;
+    max-height: 1250px;
+
+}
+.resumeEleven p{
+    font-size: 15px;
+    word-break: break-word;
+}
+.resumeEleven h4{
+    font-weight: 550;
+}
+.resumeEleven h1,
+.resumeEleven h3,
+.resumeEleven h5{
+    color: #7d15f8;
+}
+.resumeEleven .content{
+    background-color: white;
+    width: 100%;
+    padding: 0 60px;
+}
+.resumeEleven .content .head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.resumeEleven .content .head .profile{
+    width: 40%;
+}
+.resumeEleven .content .head .profile .name h1:nth-child(2){
+    font-weight: 500;
+}
+.resumeEleven .content .head .profile .profession{
+    margin: 20px 0;
+}
+.resumeEleven .content .head .personal{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.resumeEleven .content .head .personal>div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.resumeEleven .content .head .personal>div i{
+    margin-right: 5px;
+}
+.resumeEleven .content .main{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.resumeEleven .content .main>.left{
+    width: 50%;
+    padding-right: 60px;
+}
+.resumeEleven .content .main>.left>div{
+    margin-bottom: 30px;
+}
+.resumeEleven .content .main>.left>div h3{
+    border-bottom: 1px solid #666666;
+
+    padding-bottom: 10px;
+
+}
+.resumeEleven .content .main .left>div .inner-div{
+    margin: 10px 0;
+}
+
+.resumeEleven .content .main .left>.education .inner-div>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+.resumeEleven .content .main .left>.education .inner-div>div>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 5px;
+}
+.resumeEleven .content .main .right>.education .inner-div .left{
+    min-width: 83px;
+    border-right: 1px solid #666666;
+    margin-right: 20px;
+    flex-direction: column;
+
+}
+.resumeEleven .content .main .right>.education .inner-div .left p{
+    text-align: center;
+    width: 100%;
+}
+.resumeEleven .content .main .left>.education .inner-div .right{
+    width: 80%;
+    flex-direction: column;
+}
+.resumeEleven .content .main .left>.education .inner-div .right h4{
+    margin-bottom: 5px;
+}
+.resumeEleven .content .main .left>.education .inner-div .right p{
+    margin-bottom: 5px;
+}
+
+.resumeEleven .content .main .left>.skills .inner-div>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+.resumeEleven .content .main .left>.skills .inner-div>div p{
+    max-width: 60%;
+}
+.resumeEleven .content .main .left>.skills .inner-div>div .rating span i{
+    width: 20px;
+    font-size: 12px;
+    color: #666666;
+}
+.resumeEleven .content .main .left>.skills .inner-div>div .rating span i.active{
+    color: #1f15f8;
+}
+
+.resumeEleven .content .main .left>.interests .inner-div{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.resumeEleven i{
+    color: #7d15f8;
+}
+.resumeEleven .content .main .left>.interests .inner-div>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100px;
+}
+.resumeEleven .content .main .left>.interests .inner-div>div p{
+    margin-top: 5px;
+}
+.resumeEleven .content .main .left>.interests .inner-div>div img{
+    background-color: #7d15f8;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.resumeEleven .content .main>.right{
+    width: 50%;
+    /* padding-right: 60px; */
+}
+.resumeEleven .content .main .right>div{
+    margin-bottom: 30px;
+}
+.resumeEleven .content .main .right>div h3{
+    border-bottom: 1px solid #666666;
+
+    padding-bottom: 10px;
+
+}
+.resumeEleven .content .main .right>div .inner-div{
+    margin: 10px 0;
+}
+
+.resumeEleven .content .main .right>.experience .inner-div>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+.resumeEleven .content .main .right>.experience .inner-div>div>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    flex-direction: column;
+}
+.resumeEleven .content .main .inner-div>div>.left{
+    min-width: 83px;
+    border-right: 1px solid #666666;
+    margin-right: 20px;
+    flex-direction: column;
+
+}
+.resumeEleven .content .main .inner-div>div>.left p{
+    text-align: center;
+    width: 100%;
+}
+.resumeEleven .content .main .inner-div>div>.right{
+    width: 80%;
+    flex-direction: column;
+}
+.resumeEleven .content .main .inner-div>div>.right h4{
+    margin-bottom: 5px;
+}
+.resumeEleven .content .main .inner-div>div>.right p{
+    margin-bottom: 5px;
+}
+.resumeEleven .languages .inner-div p span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.resumeEleven .goals .inner-div>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.resumeEleven .goals .inner-div>div p{
+    width: 70%;
+}
+.resumeEleven .goals .inner-div>div p:nth-child(odd){
+    font-weight: bold;
+    width: 30%;
+}

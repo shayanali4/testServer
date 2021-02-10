@@ -1,0 +1,329 @@
+
+.resume12{
+
+    
+    
+    
+}
+.resume12 .content{
+    
+    background-color:    #c2c9e6 ;
+      max-width: 1050px;
+      min-width: 1050px;
+      min-height: 1250px;
+      max-height: 1250px;
+
+}
+.resume12 .main123{
+    width: 100%;
+    margin: 20px auto;
+    padding: 30px 40px;
+
+}
+.resume12 .main123 .heading{
+    text-align: center;
+}
+.resume12 .main123 .heading1  .first .facts2{
+    margin-bottom: 10px;
+}
+.resume12 .main123 .heading1  .first .facts2 p{
+    overflow-wrap: break-word;
+    font-size: 15px;
+    max-width: 352px;
+}
+.resume12 .main123 .heading1  .first .facts2  h5{
+    font-size: 15px;
+    margin-bottom: -8px;
+    }
+
+
+.resume12 .main123 .heading1 .second .flex1 p{
+    padding:0px 10px ;
+    color: #8694cd;
+}
+
+.resume12 .main123 .heading1 .second .flex1{
+    display: flex; flex-wrap: wrap;
+}
+
+
+.resume12 .main123 .heading1 {
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  background-color: #d3d8ed;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.resume12 .main123 .heading2 .first  h5{
+    color: #8694cd;
+
+}
+.resume12 .main123 .heading3 .first  h5{
+    color: #8694cd;
+
+}
+.resume12 .main123 .heading3 .first .darkblue{
+    color: #8089b1;
+    color: #8089b1;
+    min-width: 100px;
+
+
+}
+.resume12 .main123 .heading3 .langugaes .lang{
+    color: #8089b1;
+    font-size: 11px;
+
+}
+
+.resume12 .main123 .heading3 .langugaes{
+    margin-top: 50px;
+}
+.resume12 .main123 .heading2 h4{
+    color: #363683;
+    font-size: 24px;
+    font-weight: lighter; 
+
+}
+
+
+.resume12 .main123 .heading2 {
+    
+    margin-top: 30px;
+    justify-content: space-between;
+  background-color: #d3d8ed;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.resume12 .main123 .heading3 .first p{
+    font-size: 10px;
+    color: #8694cd;
+
+}
+.resume12 .main123 .heading3 .second .flex .darkblue{
+    max-width: 35px;
+}
+.resume12 .main123 .heading3 .second .flex .width {
+    padding: 0px 0px;
+}
+.resume12 .main123 .heading3 .second .flex .width   i {
+    font-size: 29px;
+    padding: 0px 5px;
+}
+
+
+.resume12 .main123 .heading3 .second .flex{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+
+.resume12 .main123 .heading3 .second div{
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.resume12 .main123 .heading3 h4{
+    color: #363683;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-left: 8px; 
+
+}
+.resume12 .main123 .heading3 .first div{
+    padding: 10px;
+}
+
+
+.resume12 .main123 .heading3 {
+    
+    margin-top: 30px;
+    justify-content: space-between;
+  background-color: #d3d8ed;
+  padding: 10px 30px;
+  border-radius: 10px;
+  display: flex;
+}
+
+
+
+
+.resume12 .main123 .heading1 .first p{
+    overflow-wrap: break-word;
+    color: #8694cd;
+    margin-top: 16px;
+    max-width: 350px;
+}
+.resume12 .main123 .heading1 .first {
+   margin-top: 10px;
+    width: 50%;
+   padding-right: 90px;
+   border-right: 1px solid black;
+   margin-bottom: 10px;
+
+    
+}
+.resume12 .main123 .heading2 .first {
+    margin-top: 10px;
+     width: 100%;
+     display: flex;
+    padding-right: 90px;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+
+ 
+     
+ }
+
+
+ .resume12 .main123 .heading3 .first {
+    margin-top: 10px;
+     width: 20%;
+    padding-right: 90px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    max-width: 400px;
+    overflow-wrap: break-word;
+    
+
+ 
+     
+ }
+ .resume12 .main123 .heading3 .languages p{
+       margin-top: 10px;
+    padding: 0px 14px;
+    max-width: 120px;
+    overflow-wrap: break-word;
+
+    color: #8694cd;
+
+
+ }
+ .resume12 .main123 .heading3 .languages{
+     margin-top: 10px;
+ }
+ .resume12 .main123 .heading3 .second {
+    margin-top: 10px;
+     width: 30%;
+    padding-right: 90px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    max-width: 400px;
+    overflow-wrap: break-word;
+
+ 
+     
+ }
+
+
+
+ .resume12 .main123 .heading2 .first div :last-child{
+border: none;
+ }
+ .resume12 .main123 .heading2 .first div {
+   
+   
+    border-right: 1px solid black;
+    padding-right: 26px;
+    overflow-wrap: break-word;
+    max-width:293px;
+    justify-content: flex-start;
+    display: block;
+    padding-left: 26px;
+ }
+
+
+
+.resume12 .main123 .heading1 .second {
+    margin-top: 10px;
+
+    width: 50%;
+    padding-left: 120px;
+    margin-bottom: 10px;
+
+     
+ }
+
+
+
+
+
+
+
+
+.resume12 .main123 .heading .first h2{
+font-size: 40px; font-weight: lighter;
+color: #363683;}
+
+.resume12 .main123 .heading .second h6{
+    font-size: 20px; font-weight: bold;
+margin-top: 10px;
+margin-bottom: 5px;
+color: #363683;}
+.resume12 .main123 .heading  p{
+    margin-top: 15px;
+  border-bottom: 5px solid #8080b1 ;}
+  
+  
+  
+  .resume12 .main123 .heading1 .first .summary h4 {
+
+    color: #363683;
+font-size: 24px;
+font-weight: lighter; 
+
+margin-bottom: 7px; }
+.resume12 .main123 .heading1 .second .summary h4 {
+
+    color: #363683;
+font-size: 24px;
+font-weight: lighter; 
+margin-bottom: 7px;}
+.resume12 .main123 .heading1 .second .summary .details div {
+    display: flex;justify-content: flex-start;
+    align-items: center;
+    max-width: 500px;
+    padding: 10px;
+}
+.resume12 .main123 .heading1 .second .summary .details div p{
+    margin-left: 10px;
+    color:#8694cd ;
+}
+
+
+
+
+.resume12     progress {
+    color: #364683;
+    width: 100pt;
+    height: 5px;
+}
+
+
+.resume12
+   .skills  .skillset .text progress::-moz-progress-bar {
+    background: #364683;
+    border: solid 2pt #364683;;
+    width: 100pt;
+}
+
+.resume12  progress::-webkit-progress-value {
+    background: #364683;;
+    border: solid 2pt #364683;;
+    width: 100pt;
+}
+
+.resume12  .skills  .skillset .text  progress[aria-valuenow]:before {
+    background:#364683;;
+    border: solid 1pt #364683;
+    width: 100pt;
+}
+
+
+.resume12   progress {
+    -webkit-appearance: none;
+    appearance: none;
+} 

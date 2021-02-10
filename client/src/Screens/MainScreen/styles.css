@@ -1,0 +1,307 @@
+.main-screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: #FAFBFC;
+    height: 100vh;
+    width: 100vw;
+}
+.main-screen .form-area{
+    min-width: 60%;
+    max-width: fit-content;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.main-screen .form-area.blur{
+    filter: blur(2px)
+}
+.main-screen .resume-area{
+    height: 100%;
+    width: 40%;
+    background-color: #FAFBFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 460px;
+}
+.main-screen .resume-area.blur{
+    filter: blur(2px)
+}
+.main-screen .resume-area .tool-box{
+    background-color: #1E1950;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.main-screen .resume-area .resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border: 5px solid #1E1950;
+    border-top: 0px;
+    background-color: white;
+    width: 100%;
+    height: 92%;
+    max-height: 650px;
+}
+.main-screen .resume-area .tools{
+    transition: 0.7s;
+    height: 10%;
+    color: rgb(199, 188, 188);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    position: absolute;
+    top: -55px;
+    left: 30px;
+}
+.main-screen .resume-area .tools .button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 15px;  
+    cursor: pointer;
+  
+}
+.main-screen .resume-area .tools .button p{
+    white-space: nowrap;
+    font-size: 17px;
+    margin: 5px;
+    color: #d4d3e0;
+}
+.main-screen .resume-area .tools .button i{
+    font-size: 25px;
+    color: #d4d3e0;
+}
+.main-screen .resume-area .preview button{
+    margin: 10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 6px 15px;
+    color: #1E1950;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #d4d3e0;
+    transition: 0.9s;
+}
+.main-screen .resume-area .preview button:hover{
+    padding: 6px 18px;
+}
+.resume .react-transform-component{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Min Screen Size = 850px */
+@media only screen and (min-width: 850px) {
+    .modal-content{
+        width: 80%;
+    }
+}
+
+/* Max Screen Size = 850px */
+@media only screen and (max-width: 850px) {
+.main-screen{
+    flex-direction: column;
+    height: 100vh;
+}    
+.main-screen .form-area{
+    width: 100%;
+    height: -moz-fit-content;
+    height: 100%;
+}
+.main-screen .details-form{
+    padding: 30px;
+    overflow: hidden;
+    height: fit-content;
+}
+.main-screen .details-form form {
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+.main-screen .resume-area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+.main-screen .resume-area .tool-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-screen .resume-area .preview{
+    margin: 0 auto;
+}
+.main-screen .resume-area .resume{
+    display: none;
+}
+.main-screen .modal{
+    width: 100vw;
+    height: 100vh;
+}
+.main-screen .modal-content{
+    margin: 0 auto;
+    max-width: 100vw;
+    min-width: 80%;
+    min-height: 90vh;
+    max-height: fit-content;
+}   
+.main-screen .modal-content .modal-body{
+    max-height: 80vh;
+}
+.modal .react-transform-component{
+    position: relative;
+    width: 100%;
+    max-height: 500px;
+}
+.modal-header {
+  padding: 0px 20px;
+    background-color: #1E1950;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal-header span {
+    display: none;
+}
+.modal-header div p{
+    color: #1E1950;
+}
+.modal-header .back {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+}
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.modal.d-block{
+    display: block; 
+}.modal.d-none{
+    display: none; 
+}
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 50px auto;
+  padding: 0;
+  border: 5px solid #1E1950;
+  border-top: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  text-decoration: none;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.modal-header {
+  padding: 2px 16px;
+  background-color: #1E1950;
+  color: white;
+}
+.modal-body{
+    padding: 2px 16px;
+    max-height: fit-content;
+}
+.modal-content.point-three{
+      max-width: 100vw;
+      min-height: 100vh;
+}
+.modal-content.point-six{
+      width: 640px;
+}
+.modal-body>div.point-three{
+    transform: translate(-111px,-391px) scale(0.29);
+}
+.modal-body>div.point-six{
+    transform: translate(-210px,-250px) scale(0.6);
+}
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #1E1950;
+  color: white;
+}
+.modal .mobile-tools{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: #1E1950;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.modal .mobile-tools button{
+    margin: 10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 6px 15px;
+    color: #1E1950;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #d4d3e0;
+    transition: 0.9s;
+}
+
+/* Opacity Text */
+/* .main-screen .resume {
+  position: relative;
+} */
+.main-screen .opacity-text{
+  /* position: absolute;
+  width: 100%;
+  color: gray;
+  opacity: 0.15; */
+
+}
+.main-screen .opacity-text h2{
+  /* font-size: 150px;
+  line-height: 200px;
+  font-weight: bolder;
+  transform: rotate(-45deg);
+  word-break: break-all; */
+}

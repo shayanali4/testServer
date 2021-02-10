@@ -1,0 +1,393 @@
+.resume5 .personal1{
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.resume5 .personalinfo{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.resume5 .personalinfo{
+    display: flex;
+}
+.resume5 .personalinfo .first{
+    width: 30%;
+}
+.resume5 .personalinfo .second{
+    width: 30%;      
+}
+.resume5 .personalinfo .third{
+    width: 30%;    
+}
+.resume5 .personalinfo .second p{
+    max-width: 240px;
+    overflow-wrap: break-word;
+}
+.resume5 .personalinfo .first p{
+    max-width: 240px;
+    overflow-wrap: break-word;     
+}
+.resume5 .personalinfo .second p{
+    max-width: 240px;
+    overflow-wrap: break-word;  
+}
+.resume5 .personalinfo .third  p{
+    max-width: 240px;
+    overflow-wrap: break-word;
+}
+.resume5 .personalinfo div  {
+    margin-right: 40px;
+}
+.resume5{
+    min-width: 1050px;
+    max-width: 1050px;
+    padding: 20px 20px;
+    min-height: 400px;
+    max-height: 1250px;
+    font-family: 'Montserrat';
+}
+.resume5 .image-background{
+    width: 100%;
+    background-image: url("./images/back.jpeg");    
+    background-size: 100% 100%;    
+}
+.resume5 .main5 .name{
+    margin-top: 80px;
+    margin-left: 340px;
+    margin-bottom: 3px;
+    color: white;
+    letter-spacing: 0.2rem;
+    font-weight: lighter;
+}
+.resume5 .main5 .profession{
+    color: white;
+    margin-top: 0px;
+    margin-left: 340px;
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+    font-weight: lighter;      
+}
+.resume5 .main5 .socialmedia div{
+    display: flex;
+}
+.resume5 .main5 .socialmedia{
+    color: rgb(223, 219, 219);
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    letter-spacing: 0.2rem;
+    padding: 0px 10px;
+}
+.resume5 .main5 .education{
+    color: rgb(235, 219, 219);
+    margin-top: 30px;
+    margin-left: 30px; font-size: 22px;
+    margin-bottom: 10px;     
+    color: rgb(44, 42, 42);           
+}
+.resume5 .main5.degree{             
+    display: flex;
+    justify-content: space-between;
+}
+.resume5 .main5 .educationdetails{
+    margin-top: 0px;                                          
+}
+.resume5 .main5 .educationdetails span{                        
+    width: 8px;
+    height: 8px;
+    width: 8px;
+    background-color: #363636;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    left: 81px;
+}
+.resume5 .main5 .educationdetails .span1{
+                        
+    height: 6px;
+    width: 6px;
+    background-color:#363636;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -12px;
+    left: 70px;
+}      
+.resume5 .main5 .educationdetails .firstdiv{
+    width: 100%;
+    border-top:1px solid #363636;
+    display: flex;
+    justify-content: flex-start;
+}
+.resume5 .main5 .educationdetails .subeducation{
+    margin-top: 0px;
+    margin-left: 32px;
+    letter-spacing: 0.3rem;
+    color: #1c1c1d;
+    padding-right: 190px;   
+}
+.resume5 .main5 .educationdetails .subeducation h6{
+    max-width: 200px;
+    margin-top: 6px;
+    overflow-wrap: break-word;
+    color: #1c1c1d;
+}                   
+.resume5 .main5 .educationdetails .subeducation .college{
+    font-size: 12px;
+    margin-top: 0px;
+    letter-spacing: 0.1rem;
+    color: #1c1c1d;   max-width: 200px;
+    overflow-wrap: break-word;
+}
+.resume5 .main5 .educationdetails .subeducation .date{
+    font-size: 12px;
+    margin-top: 0px;
+    letter-spacing: 0.1rem;
+    color: #1c1c1d;
+    max-width: 200px;
+    color: #1c1c1d;
+}
+.resume5 .main5 .educationdetails .subeducation .something{
+    font-size: 12px;
+    margin-top: 0px;
+    letter-spacing: 0.01rem;
+    color: #363636;
+    margin-bottom: -1px;
+    max-width: 200px;
+    overflow-wrap: break-word;
+}
+.resume5  .summary{
+    max-width: 400px;
+}
+.resume5 .summary p{
+    padding: 0px 0px;
+    padding: 0px 0px;
+    max-width: 1;
+    overflow-wrap: break-word;
+}
+.resume5  .last123{
+    margin-left: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+} 
+.resume5  .last123 .resumefirst{
+    display: inline;
+    margin-left: 12px; font-size: 13px;
+    font-weight: 700;
+    font-size: 14px;
+    max-width: 400px;
+}
+.resume5 .last123 .resumezero {
+    border-left: 1px solid #363636;
+    max-width: 400px;
+}
+.resume5 .last123 .resumeone {
+    border-left: 1px solid #363636;
+    height: 100%;
+}
+.resume5 .last123 .span123{
+    height: 10px;
+    width: 10px;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    border: 1px solid #363636;;
+    position: relative;
+    left: -6px;
+    top: -2px;
+}
+.resume5 .last123 .resumezero .all{
+    font-size: 12px;
+    margin-left: 25px;
+    overflow-wrap: break-word;
+    font-size: 12px;
+    margin-left: 25px;
+    max-width: 250px; 
+} 
+.resume5  .last123 .resumeone .all{
+    font-size: 12px;
+    margin-left: 25px;
+    overflow-wrap: break-word;
+    font-size: 12px;
+    margin-left: 25px;
+    max-width: 250px;    
+}
+.resume5 .last123 .resumezero .resumefirstall{        
+    height: 7px;
+    width: 7px;
+    color: #363636;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(17, 17, 17);
+    border: 1px solid black;
+    position: relative;
+    top: 14px;
+    left: -4px;
+    margin-bottom: 0px;
+}
+.resume5 .last123 .resumeone .resumefirstall{
+    height: 7px;
+    width: 7px;
+    color: #363636;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    background-color: #363636;
+    border: 1px solid #363636;
+    position: relative;
+    top: 13px;
+    left: -4px;
+    margin-bottom: 0px;
+}
+.resume5 .last123 .resumezero .date{
+    font-size: 10px;
+    margin-left: 25px;
+    max-width: 250px;
+    overflow-wrap: break-word;
+}
+.resume5 .last123 .resumezero .exp{
+    font-size: 12px;
+    margin-left: 25px;
+    max-width: 250px;
+    overflow-wrap: break-word;  
+} 
+.resume5 .last123 .resumezero .white{
+    color: white;
+}
+.resume5 .last123 .resumeone {
+    border-left: 1px solid#363636;;
+    max-width: 400px;
+}
+.resume5 .last123 .resumeone .level input{
+    height: 5px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.resume5 .last123 .resumeone .level{
+    height: 5px;
+    margin-top: -5px;
+}
+.resume5  .last123 .resumeone .skills{
+    margin-top: -9px;
+} 
+.resume5 .facts {
+    margin-left: 50px;
+    margin-top: 22px;   
+}
+.resume5 .facts1 {
+    margin-top: 16px;
+    margin-left: 0px;        
+}
+.resume5 .interests{
+    margin-left: 30px;
+}
+.resume5 .facts .factsvalue .first p{
+    max-width: 200px ;
+    overflow-wrap: break-word;
+}
+.resume5 .facts .factsvalue{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.resume5 .facts1 .factsvalue{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+.resume5 .facts .factsvalue .first{
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-left:5px;
+    max-width: 200px;
+}
+.resume5 .facts1 .factsvalue .first{
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-left:5px;
+    max-width: 200px;
+}
+.resume5 .h5{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.resume5 .facts .h6{
+    margin-left: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 0px;
+}
+.resume5  .last123 .resumeone div .progress123{    
+    margin-top: 0px;
+    margin-left: 25px;   
+} 
+.resume5 .last123 .resumeone .second{
+    margin-top: 0px;
+}
+.resume5 progress {
+    color: #363636;
+    width: 150pt;
+    height: 3pt;
+}
+.resume5  progress::-moz-progress-bar {
+    background:#363636;;
+    border: solid 1pt #363636;;
+    width: 150pt;
+    height: 4px;
+}
+progress::-webkit-progress-value {
+    background: #363636;;
+    border: solid 1pt #363636;;
+    width: 150pt;
+    height: 3px;
+}
+.resume5 progress[aria-valuenow]:before {
+    background:#363636;;
+    border: solid 0pt#363636;;
+    width: 150pt;
+    height: 2px;
+}
+.resume5 progress {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.resume5 .interests .lang p{
+    font-size: 11px;
+    margin-left: 30px;
+}
+.resume5 .interests .lang{
+    margin-top: 40px;
+    margin-bottom: 40px;   
+}
+.resume5 .interests .interest123{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: #363636;;;
+}
+.resume5 .interests .interest1 li i{
+    font-size: 25px;
+}
+.resume5 .interests .interest1{
+    list-style: none;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #363636;
+    margin-left: 45px;
+}  
+.resume5 .interests .interest1 img{
+    width: 30px;
+    height: 30px;
+} 
+.resume5 .interests .interest1 .li{
+    font-size: 14px;
+    margin-top: 2px;
+}

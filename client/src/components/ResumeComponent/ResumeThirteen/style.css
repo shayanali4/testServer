@@ -1,0 +1,313 @@
+
+.resume13{    
+    padding: 10px 10px;
+    margin: 20px auto;
+    
+}
+.resume13 .main{
+    
+    min-width: 1050px;
+    max-width: 1050px;
+    max-height: 1250px;
+    min-height: 1250px;
+}
+
+
+.resume13 .start{
+    display: flex;
+    justify-content: flex-start;
+    background-color:    #A5A4A4  ;
+    padding: 10px;
+}
+.resume13 .main  .start .left{
+  width: 30%;
+  background-color: white;
+  margin-right: 10px;
+}
+
+
+
+.resume13 .main  .start .left .name{
+   background-color: #FFE32C;
+   padding: 90px 20px;
+ 
+  }
+  .resume13 .main  .start .left .name .namedetail{
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column; 
+background-color: #FFE32C;
+
+  
+   }
+
+
+
+   .resume13 .main  .start .left .name .namedetail h4{
+       max-width: 200px;
+       overflow-wrap: break-word;
+   }
+
+   .resume13 .main  .start .left .name .namedetail p{
+    max-width: 200px;
+    overflow-wrap: break-word;
+}
+.resume13 .main  .start .left .info{
+padding: 20px 8px;
+border-bottom: 1px solid #A5A4A4 ;
+
+}
+.resume13 .main  .start .left .info div{
+    margin-bottom: 15px;
+    max-width: 500px;
+    overflow-wrap: break-word;
+    }
+.resume13 .main  .start .left .info .h6{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    }
+
+.resume13 .main  .start .left .info p{
+font-size: 10px;    
+    }
+    .resume13 .main  .start .left .info h6{
+        font-size: 13px;    
+            }
+            .resume13 .main  .start .left .info .p .dot{
+                 margin-top: 10px;
+                    height: 15px;
+                    width: 15px;
+                    background-color: #FEE32D;
+                    border-radius: 50%;
+                    display: inline-block;
+                    margin-right: 5px;
+                  
+
+
+            }
+            .resume13 .main  .start .left .info .p{
+                max-width: 500px;   overflow: hidden;
+                max-width: 500px;
+            }
+        
+
+
+
+
+
+
+
+
+.resume13 .main .start .right{
+    width: 70%;
+    background-color: white;
+margin-left: 10px;
+padding: 30px 10px;
+  }
+  .resume13 .main .start .right h2{
+    width: 70%;
+    background-color: white;
+margin-left: 10px;
+padding: 0px 10px;
+color: #FFE32C;
+  }
+  .resume13 .main .start .right .para{
+ font-size: 15px;
+ margin-top: 5px;
+ max-width: 800px;
+ overflow-wrap: break-word;
+  }
+  .resume13 .main .start .right .skills{
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 20px;
+      
+     
+  }
+  .resume13 .main .start .right .skills .facts div h6{
+    margin-bottom: 5px;
+    margin-top: 6px;
+}
+  .resume13 .main .start .right .skills .professional div h6{
+  }
+  .resume13 .main .start .right .skills .professioanl{
+    width: 50%;
+}
+.resume13 .main .start .right .skills .facts{
+    width: 50%;
+}
+.resume13 .main .start .right .social .social1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    overflow-wrap: break-word;
+}
+.resume13 .main .start .right .social h4{
+    margin-bottom: 10px;
+}
+.resume13 .main .start .right .social .social1 p{
+  margin-right: 15px;
+  margin-bottom: 10px;
+  
+}
+.resume13 .main .start .right .skills h5{
+    margin-top: 10px;
+margin-bottom: 10px;
+max-width: 300px;
+overflow-wrap: break-word;}
+.resume13 .main .start .right .skills p{
+    font-size: 12px;
+    max-width: 300px;
+    overflow-wrap: break-word;}
+
+    .resume13   progress {
+        color: #FFE32C;
+        width: 200pt;
+        height: 5px;
+        margin-bottom: 12px;
+    }
+    
+    
+    .resume13   progress::-moz-progress-bar {
+        background: #FFE32C;
+        border: solid 2pt #FFE32C;
+        width: 150pt;
+    }
+    
+    .resume13  progress::-webkit-progress-value {
+        background: #FFE32C;
+        border: solid 2pt #FFE32C;
+        width: 150pt;
+    }
+    
+    .resume13   progress[aria-valuenow]:before {
+        background :#FFE32C;
+        border: solid 1pt #FFE32C;
+        width: 150pt;
+    }
+    
+    
+    .resume13    progress {
+        -webkit-appearance: none;
+        appearance: none;
+    } 
+    .resume13 .main .start .right .exp{
+        display: flex;
+        justify-content: flex-start;
+
+        
+    }
+    .resume13 .main .start .right .exp .left{
+        width: 50%;
+    }
+    .resume13 .main .start .right .exp .right{
+       width: 50%;
+    }
+    .resume13 .main .start .right .exp .left .left1{
+display: flex;
+justify-content: flex-start;  
+margin-top: 2px;
+margin-bottom: 20px;
+
+  }
+
+  .resume13 .main .start .right .exp .right .left1{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;  
+      }
+  .resume13 .main .start .right .exp .experience{
+    margin-bottom: 20px;
+margin-top: 10px;  }
+.resume13 .main .start .left .exp .experience{
+    margin-top: 40px; 
+ }
+
+
+
+
+  .resume13 .main .start .right .exp .left .left1 .left11{
+    width: 40%;
+    margin-top: 2px;
+    
+  
+      }
+      .resume13 .main .start .right .exp .left .expleft{
+          margin-top: 40px;
+          margin-bottom: 20px;
+      }
+      
+
+  .resume13 .main .start .right .exp .right .left1 .left11{
+    width: 40%;
+    margin-top: 2px;
+    
+  
+      }
+      .resume13 .main .start .right .exp .left .left1 .left11 h5{
+background-color: #FFE32C;   margin-right: 10px; 
+padding: 5px 5px;
+text-align: center;
+border-top-right-radius: 12px;
+border-bottom-right-radius: 12px;
+         }
+         .resume13 .main .start .right .exp .right .left1 .left11 h5{
+            background-color: #FFE32C;   margin-right: 10px; 
+            padding: 5px 5px;
+            text-align: center;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+                     }
+      .resume13 .main .start .right .exp .left .left1 .left22{
+     
+        margin-right: 10px;
+        width: 60%;
+        max-width: 250px;
+        overflow-wrap: break-word;
+
+          }
+          .resume13 .main .start .right .exp .right .left1 .left22{
+     
+            margin-right: 10px;
+            width: 60%;
+            max-width: 250px;
+        overflow-wrap: break-word;
+    
+              }
+              .resume13 .main .start .right .interests .interests123 i{
+                  color: #FFE32C;
+                  height: 50px;
+                  width: 50px;
+              }
+              .resume13 .main .start .right .interests{
+                  overflow-wrap: break-word;
+              }
+    
+              .resume13 .main .start .right .interests .interest123{
+                  display: flex;
+                  margin-top: 20px;
+                  margin-right: 30px;
+              }
+            
+              .resume13 .main .start .right .interests .interests123 h4{
+                  margin-right: 10px;
+              }
+              .resume13 .main .start .right .interests .main123 .interest123 i {
+            color: #2A1B1B ;      
+font-size: 24px;
+margin-right: 50px;
+              }
+              .resume13 .main .start .right .interests .main123{
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: center;
+                  flex-wrap: wrap;
+                  padding: 5px;
+                  overflow-wrap: break-word;
+              }
+
+
+

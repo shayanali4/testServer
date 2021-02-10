@@ -1,0 +1,561 @@
+
+.resumeOne{
+    width: 100%;
+    /* margin: 20px auto; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.resumeOne >*{
+    word-break: break-all;
+}
+.resumeOne .content{
+    display: flex;
+    width: inherit;
+    min-width: 1050px;
+    max-width: 1050px;
+    min-height: 1250px;
+    max-height: 1250px;
+}
+.resumeOne .left-area{
+    min-width: 30%;
+    max-width: 30%;
+
+    background-color: white;
+    text-align: center;
+    padding: 0px 20px;
+}
+.resumeOne .left-area .info{
+    margin: 20px auto;
+    margin-bottom: 50px;
+}
+.resumeOne .left-area .info .photo{
+    margin: 50px auto;
+
+}
+.resumeOne .left-area .info .photo img{    
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.resumeOne .left-area .info .text h1{
+    font-weight: normal;
+}
+.resumeOne .left-area .info .text p{
+    font-size: 15px;
+    color: gray;
+}
+
+.resumeOne .profile{
+    margin: 50px auto;
+}
+.resumeOne .profile h3{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: auto;
+}
+.resumeOne .profile p{
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: justify;
+    width: 80%;
+    margin:20px auto;
+    word-break: break-all;
+}
+.resumeOne .contact{
+    margin: 50px auto;
+}
+.resumeOne .contact .phone{
+    margin: 20px;
+}
+.resumeOne .contact .phone h3{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: auto;
+}
+.contact .phone p{
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin:10px auto;
+}
+.resumeOne .contact .email{
+    margin: 20px;
+}
+.resumeOne .contact .email p{
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin:10px auto;
+}
+.resumeOne .contact .home{
+    margin: 20px;
+}
+.resumeOne .contact .home p{
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    margin:10px auto;
+}
+.resumeOne .interests{
+    margin-top: 20px;
+}
+.resumeOne .interests h3{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.resumeOne .interests p{
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    margin:10px auto;
+    font-size: 12px;
+
+}
+.resumeOne .bars{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px 10px;
+    padding: 0 20px;
+}
+.resumeOne .bar i{
+    /* background-color: black; */
+    border-radius: 50%;
+    font-size: 20px;
+    border-radius: 1px solid black;
+    /* width: 50px; */
+}
+
+
+
+
+
+.resumeOne .right-area{
+    max-width: 70%;
+    min-width: 70%;
+    background-color: white;
+    text-align: center;
+    padding: 0px 20px;
+}
+.resumeOne .about{
+    align-items: left;
+    margin:0 10px;
+    margin-top: 60px;
+}
+.resumeOne .about h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 90%;
+    margin-right: auto;
+}
+.resumeOne .about h3 span {
+  background: #fff;
+  margin: 0 15px;
+}
+.resumeOne .about h3:after {
+  background: black;
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+.resumeOne h3.right:before {
+  background: none;
+}
+.resumeOne .about p{
+    text-align: justify;
+    margin: 20px 20px;
+    margin-right: 60px;
+    font-size: 15px;
+    padding-right: 25px;
+}
+.resumeOne .education h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 90%;
+    margin-right: auto;
+}
+.resumeOne .education h3 span {
+  background: #fff;
+  margin: 0 15px;
+}
+.resumeOne .education h3:after {
+  background: black;
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+.resumeOne h3.right:before {
+  background: none;
+}
+.resumeOne .education .main{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 100px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.resumeOne .education .main>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    min-height: 80px;
+    height: 100%;
+}
+.resumeOne .education .main .left-part{
+    height: inherit;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 15px;
+    border-right: 1px solid black;
+    margin-bottom: 2px;
+    position: relative;
+    font-weight: 600;
+    margin-right: 10px;
+    min-width: 120px;
+    max-width: 120px;
+    min-height: 100px;
+}
+.resumeOne .education .left-part span{
+    position: absolute;
+    top: -11px;
+    right: -4.5px;
+    font-size: 25px;
+}
+.resumeOne .education .left-part p{
+    margin-top: -5px;
+}
+.resumeOne .education .main .right-part{
+    height: 100%;
+    text-align: left;
+    vertical-align: top;
+}
+.main .right-part > *{
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+.resumeOne .education .main .right-part p{
+    color: gray;
+    margin-top: 5px;
+}
+.resumeOne .education .first span{
+    position: absolute;
+    top: -12px;
+    right: -4px;
+    font-size: 25px;
+}
+.resumeOne .education .second span{
+    position: absolute;
+    top: -12px;
+    right: -4px;
+    font-size: 25px;
+}
+.resumeOne .education .third span{
+    position: absolute;
+    top: -12px;
+    right: -4px;
+    font-size: 25px;
+}
+.resumeOne .language{
+    align-items: left;
+    margin:0 10px;
+}
+.resumeOne .language h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 90%;
+    margin-right: auto;
+}
+.resumeOne .language h3 span {
+  background: #fff;
+  margin: 0 15px;
+}
+.resumeOne .language h3:after {
+  background: black;
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+.language .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;  
+    max-width: 650px; 
+}
+.resumeOne .language p{
+    text-align: justify;
+    margin: 20px 20px;
+    margin-right: 60px;
+    font-size: 15px;
+}
+.resumeOne .language .circles{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.resumeOne .circles .loading{
+    position: relative;
+    max-width: 120px;
+    margin: 10px 15px 0px;
+}
+.resumeOne .circles .loading p{
+    margin: 10px 0 0px;
+}
+.resumeOne .circles .loading .CircularProgressbar{
+    width: 100px;
+
+}
+.resumeOne .circles .loading .CircularProgressbar .CircularProgressbar-path,
+.resumeOne .circles .loading .CircularProgressbar .CircularProgressbar-text {
+    stroke: black;
+}
+.resumeOne .circles .loading .CircularProgressbar .CircularProgressbar-text{
+    fill: black;
+    font-size: 22px;
+}
+.resumeOne .circles .loading span{
+    background-position: absolute;
+    position: absolute;
+    width: 115%;
+    height: 115%;
+    top: -9px;
+    left: -9px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.resumeOne .circles .loading span.per25{
+    border-right: 5px solid black;
+    transform: rotate(-45deg);
+}
+.resumeOne .circles .loading span.per50{
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    transform: rotate(-45deg);
+}
+.resumeOne .circles .loading span.per75{
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    transform: rotate(-45deg);
+}
+.resumeOne .language .circles .circle{
+    padding: 0;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.resumeOne .facts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.resumeOne .facts>div{
+    padding: 20px 50px;
+}
+.resumeOne .facts p{
+    margin: 0 20px;
+    padding-left: 20px;
+    max-width: 570px;
+
+}
+.facts p span{
+    font-size: 19px;
+    margin-right: 5px;
+}
+.resumeOne .facts h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-right: auto;
+}
+.resumeOne .facts h3 span {
+  background: #fff;
+  margin: 0 15px;
+}
+.resumeOne .facts h3:after {
+  background: black;
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+.resumeOne .employement{
+    padding-top: 20px;
+}
+.resumeOne .employement h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-right: auto;
+}
+.resumeOne .employement h3 span {
+  background: #fff;
+  margin: 0 15px;
+}
+.resumeOne .employement h3:after {
+  background: black;
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+.resumeOne .employement .main{
+    display: flex;
+    justify-content: left;
+    padding: 20px 100px;
+}
+.resumeOne .employement .main .left-part{
+    font-weight: 600;
+}
+.resumeOne .employement .main .left-part .first{
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 15px;
+    border-right: 1px solid black;
+    margin-bottom: 2px;
+}
+.resumeOne .employement .main .left-part .second{
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 15px;
+    border-right: 1px solid black;
+    margin-bottom: 2px;
+}
+.resumeOne .employement .main .left-part .third{
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 15px;
+    border-right: 1px solid black;
+    margin-bottom: 2px;
+}
+.resumeOne .employement .main .right-part{
+    padding-left: 15px;
+    max-width: 320px;
+    word-break: break-all;
+}
+.resumeOne .employement .main .right-part .first{
+    height: 100px;
+    text-align: left;
+    vertical-align: top;
+}
+.resumeOne .employement .main .right-part h5{
+    margin-top: 10px;
+}
+.resumeOne .employement .main .right-part p{
+    color: gray;
+    margin-bottom: 1px;
+}
+.resumeOne .employement .main .right-part .second{
+    height: 100px;
+    text-align: left;
+}
+.resumeOne .employement .main .right-part .third{
+    height: 100px;
+    text-align: left;
+}
+.employement .first span{
+    position: relative;
+    top: -11px;
+    right: -20px;
+    font-size: 25px;
+}
+.employement .second span{
+    position: relative;
+    top: -11px;
+    right: -20px;
+    font-size: 25px;
+}
+.resumeOne .employement .third span{
+    position: relative;
+    top: -11px;
+    right: -20px;
+    font-size: 25px;
+}
+.resumeOne button{
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 50px 0 50px 140px;
+    background-color: rgb(29, 182, 233);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.resumeOne button:hover{
+    background-color: black;
+}
+.resumeOne .dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.resumeOne .goals{
+    padding-top: 20px;
+}
+.resumeOne .goals h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-right: auto;
+}
+.resumeOne .goals h3 span {
+  background: #fff;
+  margin: 0 15px;
+}
+.resumeOne .goals h3:after {
+  background: black;
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+.resumeOne .goals .inner-div{
+    padding: 20px 100px;
+}
+.resumeOne .goals .inner-div>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.resumeOne .goals .inner-div>div p{
+    width: 70%;
+    text-align: left;
+}
+.resumeOne .goals .inner-div>div p:nth-child(odd){
+    font-weight: bold;
+    width: 30%;
+}

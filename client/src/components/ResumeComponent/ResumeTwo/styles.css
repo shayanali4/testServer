@@ -1,0 +1,449 @@
+.resumeTwo p{
+    color: #454162;
+    font-weight: 500;
+    font-size: 14px;
+}
+.resumeTwo h4{
+    color: #1e1950;
+}
+/* .print .resumeTwo {
+    width: 90%;
+    margin: 20px auto;
+    min-width: 1100px;
+} */
+.resumeTwo{
+    width: 100%;
+    margin: 20px auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.resumeTwo .content{
+    display: flex;
+    width: inherit;
+    min-width: 1050px;
+    max-width: 1050px;
+    min-height: 1250px;
+    max-height: 1250px;
+}
+.resumeTwo .left-area{
+    min-width: 35%;
+    max-width: 35%;
+    padding: 10px;
+}
+.resumeTwo .left-area .personal-info{
+    margin: 10px;
+}
+.resumeTwo .personal-info>div{
+    -webkit-box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    -moz-box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 25px;
+
+}
+.resumeTwo .left-area .profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 40px;
+    text-align: center;
+    word-break: break-all;
+
+}
+.resumeTwo .left-area .profile img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.resumeTwo .left-area .profile h4{
+    color: #1e1950;
+    margin: 2px auto;
+    margin-top: 15px;
+
+}
+.resumeTwo .left-area .profile h5{    
+    color: #ec642a;
+    margin: 2px auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #1e1950;
+}
+/* .resumeTwo .left-area .profile p{
+    text-align: center;
+    font-weight: 500;
+    font-size: medium;
+} */
+.resumeTwo .personal-info .work{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: none;
+    padding: 10px 0px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+.resumeTwo .personal-info .work>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    margin-top: 10px;
+    max-width: 110px;
+    min-width: 100px;
+    max-height: 67px;
+    white-space: nowrap;
+}
+.resumeTwo .personal-info .work .projects{
+    background-color: #1e1950;
+}
+.resumeTwo .personal-info .work .customers{
+    background-color: #ec642a;
+}
+.resumeTwo .personal-info .work .experience{
+    background-color: #b59c7a;
+}
+.resumeTwo .personal-info .work h4{
+    font-size: 18px;
+    color: white;
+}
+.resumeTwo .personal-info .work p{
+    font-size: 12px;
+    color: white;
+}
+.resumeTwo .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 5px;
+}
+.resumeTwo .left-area .contact .inner-div{
+    width: 80%;
+}
+.resumeTwo .left-area .contact .inner-div>div{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 5px;
+}
+.resumeTwo .left-area .contact .inner-div img{
+    margin-right: 20px;
+}
+/* .resumeTwo .left-area .contact .inner-div p{
+    text-align: center;
+    font-weight: 500;
+    font-size: medium;
+} */
+.resumeTwo .left-area .goal{
+    margin: 10px;
+}
+.resumeTwo .left-area .goal>div{
+    -webkit-box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    -moz-box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: white;
+}
+.resumeTwo .left-area .goal .graph{
+    height: 250px;
+    padding: 50px 0;
+    position: relative;
+}
+.resumeTwo .left-area .goal .point{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+}
+.resumeTwo .left-area .goal .old{
+    position: absolute;
+    left: 21px;
+    top: 120px;
+    background-color: black;
+
+}
+.resumeTwo .left-area .goal .current{
+    position: absolute;
+    left: 170px;
+    top: 103px;
+    background-color: #1e1950;
+}
+.resumeTwo .left-area .goal .next{
+    position: absolute;
+    right: 15px;
+    top: 58px;
+    background-color: #ec642a;
+}
+.resumeTwo .left-area .goal .job{
+    position: absolute;
+    font-weight: 500;
+    color: #454162;
+}
+.resumeTwo .left-area .goal .old-job{
+    top: 144px;
+    left: 23px;
+}
+.resumeTwo .left-area .goal .current-job{
+    top: 59px;
+    left: 106px;
+    background-color: #1e1950;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+
+}
+.resumeTwo .left-area .goal .current-job span{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 23px;
+    transform: rotate(45deg);
+    background-color: #1e1950;
+    left: 63px;
+}
+.resumeTwo .left-area .goal .next-job{
+    top: 31px;
+    right: 11px;
+    white-space: nowrap;
+    color: #ec642a;
+}
+.resumeTwo .left-area .goal .graph img{
+    width: 100%;
+    height: 80%;
+}
+.resumeTwo .right-area{
+    max-width: 65%;
+    min-width: 65%;
+    padding: 10px;
+}
+.resumeTwo .right-area .experience{
+    margin: 10px;
+}
+.resumeTwo .right-area .experience>div{
+    -webkit-box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    -moz-box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    border-radius: 5px;
+}
+.resumeTwo .right-area .experience .work-experience{
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    background-color: white;
+    padding: 25px 55px;
+    margin-top: 10px;
+    max-height: 400px;
+    max-width: 638px;
+    word-break: break-all;
+}
+.resumeTwo .right-area .experience .left{
+    min-width: 120px;
+
+}
+.resumeTwo .right-area .left div{
+    min-height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-right: 5px;
+
+}
+.resumeTwo .right-area .left span{
+    border: 1.5px solid #454162;
+    white-space: pre-wrap;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    color: white;
+}
+.resumeTwo .right-area .right>div{
+    min-height: 100px;
+    margin-bottom: 10px;
+}
+.resumeTwo .right-area .right h4{
+    color: #1e1950;
+    font-weight: 600;
+}
+.resumeTwo .right-area .right>div div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+}
+.resumeTwo .right-area .right>div div span{
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    white-space: nowrap;
+    float: right;
+}
+.resumeTwo .right-area .experience .right>div div span.current{
+    color: #ec642a;
+    background-color: #f44f1d2f;
+}
+.resumeTwo .right-area .experience .right p{
+    margin-bottom: 5px;
+
+}
+.resumeTwo .right-area .education{
+    margin: 10px;
+}
+.resumeTwo .right-area .education>div{
+    -webkit-box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    -moz-box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    border-radius: 5px;
+}
+.resumeTwo .right-area .education .education-details{
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    background-color: white;
+    padding: 25px 55px;
+    padding-right: 10px;
+    margin-top: 10px;
+    max-height: 400px;
+    max-width: 638px;
+    word-break: break-all;
+
+}
+.resumeTwo .right-area .education .left{
+    min-width: 100px;
+
+}
+.resumeTwo .right-area .education .left div{
+    min-height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-right: 5px;
+}
+.resumeTwo .right-area .education .left span{
+    border: 1.5px solid #454162;
+    white-space: pre-wrap;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    color: white;
+}
+
+.resumeTwo .right-area .right>div div{
+    margin-bottom: 5px;
+}
+.resumeTwo .right-area .right>div div span{
+    font-weight: 600;
+    background-color: #422fbd70;
+    border-radius: 5px;
+    padding: 5px 10px;
+    float: right;
+}
+.resumeTwo .right-area .education-details .right span.current{
+    color: #ec642a;
+    background-color: #f44f1d2f;
+}
+.resumeTwo .right-area .education .right p{
+    max-width: 393px;
+}
+.resumeTwo .right-area .education .right p{
+    margin-bottom: 5px;
+}
+.resumeTwo .skills{
+    margin: 10px;
+}
+.resumeTwo .skills>div{
+    -webkit-box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    -moz-box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    border-radius: 5px;
+}
+.resumeTwo .skills .software-skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 25px 55px;
+    margin-top: 10px;
+    flex-wrap: wrap
+
+}
+.resumeTwo .software-skills>div{
+    width: 45%;
+    margin: 5px 10px;
+}
+.resumeTwo .software-skills p{
+    font-weight: 500;
+}  
+.resumeTwo progress {
+  border-radius: 10px; 
+  width: 80%;
+  height: 5px;
+  background-color: #422fbd70;
+}
+.resumeTwo progress::-webkit-progress-bar {
+  border-radius: 10px;
+}
+.resumeTwo progress::-webkit-progress-value {
+  background-color: #1e1950;
+  border-radius: 10px;
+}
+.resumeTwo progress::-webkit-progress-value::after {
+  background-color: black;
+  border-radius: 10px;
+  content: "dfghj";
+}
+.resumeTwo .right-area .interests{
+    margin: 10px;
+}
+.resumeTwo .right-area .interests>div{
+    -webkit-box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    -moz-box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    box-shadow: -1px -1px 45px -11px rgba(0,0,0,0.72);
+    border-radius: 5px;
+}
+.resumeTwo .right-area .interests .interest-details{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 25px 10px;
+    max-width: 638px;
+    word-break: break-word;
+    flex-wrap: wrap;
+
+}
+.resumeTwo .interest-details>div{
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 130px;
+    margin: 0 5px;
+    margin-top: 10px;
+
+}
+.resumeTwo div i{
+    color: #1e1950;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #d4d3e0;
+
+}
+.resumeTwo .interest-details p{
+    font-weight: 500;
+    margin-left: 3px;
+}
