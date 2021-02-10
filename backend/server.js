@@ -79,10 +79,7 @@ if (process.env.NODE_ENV === "production") {
 
 
 
-// const app = express();
 
-// app.use(express.json({ extended: false }));
-// app.use(express.urlencoded({ extended: true }));
 
 
 app.use('/api/users', userRouter);
