@@ -1,6 +1,5 @@
 // import express from 'express';
 import dotenv from 'dotenv';
-// import mongoose from 'mongoose';
 import userRouter from './routers/userRouter.js'
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
